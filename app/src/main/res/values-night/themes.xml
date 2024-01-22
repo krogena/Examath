@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Examath" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/tint_light</item>
+        <item name="colorAccent">@color/tint_light</item>
+        <item name="colorOnPrimary">@color/tint_light</item>
+        <item name="colorSecondary">@color/my_primary</item>
+        <item name="colorOnSecondary">@color/my_primary</item>
+        <item name="colorSurface">@color/my_dark_primary</item>
+        <item name="colorOnSurface">@color/my_primary</item>
+        <item name="imageViewTint">@color/tint_dark</item>
+        <item name="fontFamily">@font/nunito</item>
+        <item name="android:textAppearance">@style/MenuItemTextAppearance</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/my_primary</item>
+        <item name="android:lineSpacingExtra">0.5sp</item>
+        <item name="itemBackground">@color/tint_dark</item>
+    </style>
+    <style name="MenuItemTextAppearance" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+</resources>

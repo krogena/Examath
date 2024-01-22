@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_primary">#E1E1E1</color>
+    <color name="tint_light">#000000</color>
+    <color name="tint_dark">#7789BD</color>
+    <color name="my_dark_primary">#2B2B2B</color>
+    <color name="border">#505050</color>
+    <color name="peach">#9DC86B</color>
+</resources>

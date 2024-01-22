@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="support">For support issues:</string>
+    <string name="first1_1">Мatrices and determinants</string>
+    <string name="first1">1 year 1 semester</string>
+    <string name="first2">1 year 2 semester</string>
+    <string name="second1">2 year 1 semester</string>
+    <string name="second2">2 year 2 semester</string>
+    <string name="home">Home</string>
+    <string name="matrix_01">A matrix is a rectangular table of numbers containing m rows and n columns. The matrix is written in the form:</string>
+    <string name="matrix_02">A matrix in which the number of rows is equal to the number of columns is called a square matrix of nth order.</string>
+    <string name="matrix_03">Matrix elements whose column number is equal to rows (i = j) are called diagonal and form the main diagonal of the matrix.</string>
+    <string name="matrix_04">A matrix containing one column or one row is called vector. Looks like:</string>
+    <string name="matrix_05">TRANSPOSITION OPERATION</string>
+    <string name="matrix_06">A matrix obtained from a given one by replacing each of its rows with a column with the same number is called a matrix transposed to the given one.</string>
+    <string name="matrix_07">A transposed matrix has the following properties:</string>
+    <string name="matrix_08">LINEAR OPERATIONS ON MATRICES</string>
+    <string name="matrix_09">The sum of two matrices:</string>
+    <string name="matrix_10">Multiplying two matrices:</string>
+    <string name="matrix_11">The matrix −A = (−1) ⋅ A is called the opposite of matrix A.</string>
+    <string name="matrix_12">The matrix difference A − B can be defined as A − B = A + (−B) .</string>
+    <string name="matrix_13">Matrix operations have the following properties:</string>
+    <string name="matrix_14">1. A + B = B + A;\n2. A + (B + C) = ( A + B) + C;\n3. A + O = A;\n4. A − A = O;\n5. 1 ⋅ A = A;\n6. α ⋅ (A + B) =α ⋅ A + α ⋅ B;\n7. (α + β) ⋅ A =α ⋅ A + β ⋅ A;\n8. α ⋅ (βA) = (αβ) ⋅ A\nwhere A,B,C are matrices, α,β are numbers.</string>
+    <string name="matrix_15">ELEMENTARY TRANSFORMATIONS OF MATRICES</string>
+    <string name="matrix_16">Elementary matrix transformations are:</string>
+    <string name="matrix_17">• swapping two parallel rows of the matrix;</string>
+    <string name="matrix_18">• multiplying all elements of a matrix row by a number other than zero;</string>
+    <string name="matrix_19">• adding to all elements a number of corresponding elements parallel series multiplied by the same number.</string>
+    <string name="matrix_20">Two matrices A and B are said to be equivalent if one of them is obtained from another using elementary transformations. A ~ B is written.</string>
+    <string name="matrix_21">MATRIX MULTIPLICATION</string>
+    <string name="matrix_22">The operation of multiplying two matrices is introduced only for the case when the number of columns of the first matrix is equal to the number of rows of the second matrix.</string>
+    <string name="matrix_23">Matrices A and B are called commutative if A⋅B = B⋅A.</string>
+    <string name="matrix_24">Matrix multiplication has the following properties:</string>
+    <string name="matrix_26">DETERMINANTS</string>
+    <string name="matrix_27">A square matrix A of order n can be associated with the number det A (or A, or Δ), called its determinant, as follows:</string>
+    <string name="matrix_28">This is the triangle rule, and Sarrus\'s rule.\nScheme for calculating the second order determinant:</string>
+    <string name="matrix_29">Scheme for calculating the third order determinant:</string>
+    <string name="matrix_30">BASIC PROPERTIES OF DETERMINANTS</string>
+    <string name="matrix_31">1. “Equality of rows and columns.” The determinant will not change if its rows are replaced by columns and vice versa (det A = det AT).\n2. When two adjacent rows are rearranged, the determinant changes sign.\n3. If in the determinant the row or column consists of zeros, then\nthe determinant is zero.\n4. A determinant having two equal series is equal to zero.\n5. The common factor of the elements of any series can be taken out of the sign of the determinant.\nFrom properties 3 and 4 it follows that if all elements of any series\nare proportional to the corresponding elements of the parallel series, then such a determinant is equal to zero.\n6. “Elementary transformations of the determinant.” The determinant will not change if the corresponding elements of the parallel series are added to the elements of one series, multiplied by\nany number.\n7. The determinant of diagonal and triangular matrices is equal to\nproduct of diagonal elements.</string>
+    <string name="matrix_32">Minor of some element ij a of the nth order determinant is a determinant of n−1st order obtained from the original one by deleting the i-th row and j-th column.</string>
+    <string name="matrix_33">LAPLACE THEOREM</string>
+    <string name="matrix_34">the determinant of a square matrix is equal to the sum of the products of the elements of any row (column) by their algebraic complements:</string>
+    <string name="matrix_35">INVERSE MATRIX</string>
+    <string name="matrix_36">A square matrix A is called non-singular if its determinant is not equal to zero: Δ = det A ≠ 0. Otherwise, the matrix is called singular.</string>
+    <string name="matrix_37">A matrix allied to matrix A is the matrix:</string>
+    <string name="matrix_38">A matrix is called the inverse of a matrix if condition:</string>
+    <string name="matrix_39">Every non-singular matrix has an inverse.</string>
+    <string name="matrix_40">Algorithm for calculating the inverse matrices:</string>
+    <string name="matrix_41">• Find the determinant of the original matrix. If A = 0, then the matrix is singular and A−1 does not exist. If A ≠ 0, then the matrix is non-singular and A−1 exists.\n• Find a matrix consisting of algebraic complements.\n• We transpose it and get the union matrix.\n• We divide each element of this matrix by its determinant.</string>
+    <string name="matrix_42">MATRIX RANK</string>
+    <string name="matrix_43">Consider a matrix A of size m×n. Let us select k lines and k\ncolumns ( k ≤ min(m;n) ). From elements at the intersection\nselected rows and columns, we compose a determinant of the kth order. All such determinants are called minors of this matrix.\nThe largest of the minor orders of a given matrix other than\nzero is called the rank of the matrix. Denoted by r,r ( A),rang A.\nFrom the definition it follows:\n• the rank of the matrix does not exceed the smaller of its dimensions, i.e.\nr ≤ min(m;n) ;\n• r ( A) = 0 if and only if all elements of the matrix are equal to zero, i.e. A=O;\n• for a square matrix of nth order r ( A) = n if and only\nthen, when the matrix A is non-singular.\nA minor whose order determines the rank of the matrix is called\nbasic. A matrix can have several basis minors.\nLet us note the properties of the matrix rank:\n1. When a matrix is transposed, its rank does not change.\n2. If you delete the zero row from the matrix, the rank of the matrix will not change.\n3. The rank of the matrix does not change during elementary matrix transformations.</string>
+    <string name="matrix_45">The concept of matrix rank is closely related to the concept of linear independence of its rows or columns. Consider the following matrix:</string>
+    <string name="matrix_46">In matrix A we denote its rows:</string>
+    <string name="matrix_47">A string e is called a linear combination of strings e1,e2... if e = λ1е1 + λ2е2..., where λ are integers.</string>
+    <string name="matrix_48">The rows of the matrix e are called linearly dependent if there are numbers λ that are not simultaneously equal to zero such that the linear combination of the rows is equal to the zero row 0 = (0,0,...,0) .</string>
+    <string name="matrix_49">The linear dependence of the rows of the matrix means that although If one row of the matrix is a linear combination of the others.</string>
+    <string name="matrix_50">If a linear combination of rows is equal to zero if and only if all coefficients are equal to zero, i.e. λ = 0, then the rows e are called linearly independent.</string>
+    <string name="matrix_51">The rank of a matrix is equal to the maximum number of its linearly independent rows through which all its other rows are linearly expressed.</string>
+    <string name="matrix_44">LINEAR INDEPENDENCE OF MATRIX RANKS</string>
+    <string name="slau_1">Systems of lin.alg. equations</string>
+    <string name="slau_2">System of m linear algebraic equations with n unknowns written in the form</string>
+    <string name="slau_3">where a denotes the coefficient for unknown j in the ith equation of the system; x1, x2, etc. – unknown; numbers b are free terms.</string>
+    <string name="slau_4">The table of coefficients for unknowns is called a matrix systems:</string>
+    <string name="slau_5">Unknown members column:</string>
+    <string name="slau_6">Column of free members</string>
+    <string name="slau_7">If m = n, then the determinant of the matrix A is most often denoted by Δ and is called the determinant of the system. A system of equations is called consistent if it has at least one solution, and inconsistent if it does not have any solution. A joint system is called definite if it has a unique solution, and indeterminate if it has more than one solution. In the latter case, each of its solutions is called a particular solution of the system. The set of all particular solutions is called the general solution. Solving a system means finding out whether it is consistent or incompatible. If the system is consistent, find its general solution. Two systems are called equivalent (equivalent) if they have the same general solution.</string>
+    <string name="slau_8">METHODS FOR SOLVING SYSTEMS OF LINEAR ALGEBRAIC EQUATIONS</string>
+    <string name="slau_9">MATRIX METHOD</string>
+    <string name="slau_10">Let a system of n linear equations with n unknowns be given</string>
+    <string name="slau_11">If the determinant of the system is different from zero, then the system is called non-degenerate.</string>
+    <string name="slau_12">KRAMER FORMULAS</string>
+    <string name="slau_13">Let\'s write the matrix solution in the form:</string>
+    <string name="slau_14">It follows that:</string>
+    <string name="slau_15">But the numerator of x1 is an expansion of the determinant:</string>
+    <string name="slau_16">by elements of the first column. The determinant of 1 Δ is obtained from the determinant of Δ by replacing the first column of coefficients with a column of dummy terms. We similarly obtain formulas for the remaining unknowns. Formulas:</string>
+    <string name="slau_17">are called Cramer\'s formulas.</string>
+    <string name="slau_18">GAUSS METHOD</string>
+    <string name="slau_19">One of the most universal and effective methods for solving linear algebraic systems is the Gauss method, which consists of sequential elimination of variables.\nLet an arbitrary system of m linear equations with n unknowns be given</string>
+    <string name="slau_20">The Gaussian solution process consists of two stages. At the first stage (direct stroke), the system is reduced to a stepped (in particular, triangular) form. We will assume that the element a11 ≠ 0 (if a11 = 0, then we will write the first equation in the system in which the coefficient of x1 is different from zero). Let\'s transform the system by eliminating the unknown 1 x in all equations except the first. To do this, multiply both sides of the first equation by -(a21/a11) and add them term by term with the second equation of the system. Then we multiply both sides of the first equation by -(a31/a11) and add them term by term with the third equation of the system. Continuing this process, we obtain the equivalent system</string>
+    <string name="slau_21">Similarly, considering the main element a22 ≠ 0,\nwe exclude the unknown 2 x from all equations of the system, except the first and second, and so on. \nWe continue this process as long as possible. \nAfter each step, the number of equations may decrease if any equation is a linear combination of other equations. \nAfter the last step, we can arrive at one of the following situations: \nThe number of unknowns coincides with the number of equations, and the matrix of the system is reduced to triangular form (a nn ≠ 0)</string>
+    <string name="slau_22">Now we can express from the last equation</string>
+    <string name="slau_23">substitute the found x n into the previous equation, find n 1 x − and then work backwards to the first equation.\nIn this case, r(A) = r(AB) = n, and the system has a unique solution.</string>
+    <string name="slau_24">The number of unknowns is less than the number of equations</string>
+    <string name="slau_25"> In this case, r(A) is lower than r(A B), then some equations of the system contradict the others, i.e. the system is inconsistent.</string>
+    <string name="slau_26">The number of equations is less than the number of unknowns</string>
+    <string name="slau_27">Let us choose the unknowns corresponding to the basic minor x and consider them to be the main ones, and take the remaining unknowns x as parameters, i.e. we will assume that they take any values. Then</string>
+    <string name="slau_28">The system has an infinite number of solutions. In this case r(A) = r(A B) lower than n.</string>
+    <string name="slau_29">KRONECKER-CAPELLI THEOREM</string>
+    <string name="slau_30">A system of linear algebraic equations is consistent if and only if the rank of the extended matrix of the system is equal to the rank of the main matrix.</string>
+    <string name="slau_31">SYSTEMS OF LINEAR HOMOGENEOUS EQUATIONS</string>
+    <string name="slau_32">A system of equations is called homogeneous if all its free terms b₁, b₂,..., bm are equal to zero.</string>
+    <string name="slau_33">Let a system of linear homogeneous equations be given</string>
+    <string name="slau_34">Properties of a homogeneous system:\n1. A homogeneous system is always consistent because it has a zero (trivial) solution x1 = x2 =.... = xn = 0.\n2. If X and Y are two solutions of a homogeneous system, then the linear combination of these solutions λX + μY is also a solution to the system.\n3. If a system has at least one non-zero solution, then it has infinitely many solutions.</string>
+    <string name="slau_35">In order for a system of homogeneous equations to have non-zero solutions, it is necessary and sufficient that the rank r of its main matrix be less than the number of unknowns</string>
+    <string name="slau_36">A set of solutions X of a homogeneous system is called a fundamental system of solutions if:\n1. Solutions X are linearly independent\n2. Any solution of system X can be represented as a linear combination:</string>
+    <string name="slau_37">INHOMOGENEOUS SYSTEMS OF LINEAR EQUATIONS</string>
+    <string name="slau_38">Consider an arbitrary system of linear algebraic equations:</string>
+    <string name="slau_39">The corresponding homogeneous system will be called the system:</string>
+    <string name="slau_40">Properties of a heterogeneous system:\n1. If Y is a solution to an inhomogeneous system, and X is a solution to the corresponding homogeneous system, then Z = Y + X is a solution to the inhomogeneous system.\n2. If Y and Z are a solution to a non-homogeneous system, then X = Z − Y is a solution to the corresponding homogeneous system.\n3. Any solution Z of an inhomogeneous system can be represented as a sum Z = Y + X, where Y is a particular solution of the inhomogeneous system, and X is the general solution of the corresponding homogeneous system.\n4. Let X1, X2, etc. is the fundamental system of solutions of a homogeneous system, and Y is a particular solution of a non-homogeneous system, then the set of solutions of a non-homogeneous system can be represented as:</string>
+    <string name="slau_41">This expression is called the general solution of the system.</string>
+    <string name="vect_1">Vector algebra</string>
+    <string name="vect_2">A vector is a segment that has a length and a direction.</string>
+    <string name="vect_3">If A is the beginning of a vector and B is its end, then the vector is denoted by the symbol AB or a with an arrow at the top. The length or modulus of the vector AB is the length of the segment and is denoted |AB| with an arrow at the top.</string>
+    <string name="vect_4">Vector BA is said to be opposite to vector AB. The vector opposite to a is denoted −a.</string>
+    <string name="vect_5">A vector whose length is equal to one is called a unit vector and is denoted e. A unit vector whose direction coincides with the direction of vector a is called the unit vector of vector a and is denoted by a°</string>
+    <string name="vect_6">It\'s obvious that</string>
+    <string name="vect_7">LINEAR DEPENDENCE AND INDEPENDENCE OF VECTORS. BASIS.</string>
+    <string name="vect_8">A linear combination of vectors a1, a2, etc. is called the vector a, defined by the formula</string>
+    <string name="vect_9">where λi are some numbers</string>
+    <string name="vect_10">We will say that the vector b is expanded (linearly expressed) in the vectors a1, a2, etc. , if it is equal to some linear combination of vectors a1, a2, etc.:</string>
+    <string name="vect_11">The numbers λi are called the coefficients of the expansion of the vector b in the system a1, a2, etc.</string>
+    <string name="vect_12">If for a system there are n vectors a1, a2, etc. equality:</string>
+    <string name="vect_13">is true only for λi = 0(i = 1, ..., n), then this system is called linearly independent.</string>
+    <string name="vect_14">If none of the vectors a1, a2, etc. cannot be represented as a linear combination of the others, then vectors a1, a2, etc. are called linearly independent.</string>
+    <string name="vect_15">The set of any three linearly independent vectors e1, e2, e3 in three-dimensional space is called a basis in space.</string>
+    <string name="vect_16">If a is an arbitrary vector, then it is always possible to uniquely find the numbers x1, x2, x3 such that:</string>
+    <string name="vect_17">The numbers x1, x2, x3 are called the coordinates of the vector ar in the basis e1, e2, e3.</string>
+    <string name="vect_18">VECTOR PROJECTION ON THE AXIS</string>
+    <string name="vect_19">Let the l axis be specified in space, i.e. directional straight.</string>
+    <string name="vect_20">The projection of a point M onto the l axis is the base M₁ of the perpendicular MM₁ dropped from the point to the axis. If a point M lies on the l axis, then the projection of the point M onto the axis coincides with M.</string>
+    <string name="vect_21">Let AB be an arbitrary vector. Let us denote by A₁ and B₁ the projections onto the l axis of points A and B, respectively, and consider the vector A₁B₁.</string>
+    <string name="vect_22">The projection of the vector AB onto the l axis is a positive number |A₁B₁| if the vector A₁B₁ and the l axis are equally directed and the negative number -|A₁B₁| , if the vector A₁B₁ and the l axis are oppositely directed. If points A₁ and B₁ coincide, then the projection of the vector AB is equal to 0.</string>
+    <string name="vect_23">The projection of the vector ar onto the l axis is equal to the product of the modulus of the vector ar and the cosine of the angle ϕ between the vector and the axis</string>
+    <string name="vect_24">SCALAR MULTIPLICATION OF VECTORS AND ITS PROPERTIES</string>
+    <string name="vect_25">The scalar product of two non-zero vectors a and b is a number equal to the product of the lengths of these vectors and the cosine of the angle between them.</string>
+    <string name="vect_26">Properties of scalar multiplication:</string>
+    <string name="vect_27">VECTOR MULTIPLICATION OF VECTORS AND ITS PROPERTIES</string>
+    <string name="vect_28">Three non-coplanar (not lying in the same plane) vectors a, b and c, taken in the indicated order, form a right-handed triplet if, from the end of vector c, the shortest turn from vector a to vector b is seen to be taking place counterclockwise, and a left-handed triplet if clockwise .</string>
+    <string name="vect_29">Vector multiplication of vector a by vector b is called a vector a×b, which:</string>
+    <string name="vect_30">• perpendicular to vectors a and b\n• has a length numerically equal to the area of a parallelogram built on vectors a and b as sides\n• vectors a, b and a×b form a right-handed triple.\n• denoted by a×b,</string>
+    <string name="vect_31">MIXED PRODUCT OF VECTORS AND ITS PROPERTIES</string>
+    <string name="vect_32">Consider the product of vectors a, b and c, composed as follows: (a×b)⋅c. Such a product is called vector-scalar or mixed.</string>
+    <string name="vect_33">Properties of mixed multiplication:</string>
+    <string name="vect_32.0">Let\'s find out the geometric meaning of the expression (a × b) ⋅ c. Let\'s construct a parallelepiped whose edges are the vectors a, b, c and the vector d = a × b</string>
+    <string name="vect_32.1">We have:</string>
+    <string name="vect_32.2">where S is the area of a parallelogram built on vectors a and b</string>
+    <string name="vect_32.3">for the right triple of vectors:</string>
+    <string name="vect_32.4">for the left triple of vectors:</string>
+    <string name="vect_32.5">We get:</string>
+    <string name="vect_32.6">where V is the volume of the parallelepiped formed by vectors a, b and c.</string>
+    <string name="vect_32.7">Thus, the mixed product of three vectors is equal to the volume of the parallelepiped built on these vectors, taken with a plus sign if these vectors form a right triple, and with a minus sign if they form a left triple.</string>
+    <string name="vect_30.1">Properties of vector multiplication:</string>
+    <string name="lae_1">Elements of lin. algebra</string>
+    <string name="lae_2">A sequence of n real numbers is called an n-dimensional vector.</string>
+    <string name="lae_3">The numbers a1,a2, ..., an are called the coordinates of the vector, and n is the dimension of the vector.</string>
+    <string name="lae_4">Two n-dimensional vectors are said to be equal when their corresponding coordinates are equal:</string>
+    <string name="lae_5">The sum of vectors a and b is the vector:</string>
+    <string name="lae_6">The product of a vector a and the number λ is the vector</string>
+    <string name="lae_7">Vector 0 is called zero if for any vector the equality a + 0 = a</string>
+    <string name="lae_8">Vector −a is said to be opposite to vector a if a + (-a) = 0</string>
+    <string name="lae_9">Because operations on n-dimensional vectors are defined through operations on their coordinates, then many properties of arithmetic operations are also valid for operations on vectors:</string>
+    <string name="lae_10">SCALAR PRODUCT. LENGTH.</string>
+    <string name="lae_11">The scalar product of vectors a and b is the number:</string>
+    <string name="lae_12">The length (modulus) of a vector a is the number</string>
+    <string name="lae_13">The angle between vectors a and b is a number ϕ ∈ [0,π] for which</string>
+    <string name="lae_14">n-DIMENSIONAL VECTOR SPACE. BASIS.</string>
+    <string name="lae_15">A set L of elements x, y, z is called a linear (vector) space if:</string>
+    <string name="lae_16">1. For any two elements x ∈L and y∈L, the addition operation is defined;\n2. For any element x ∈L and any number α, the operation of multiplying the element x by the number α is defined;\n3. The equality of elements from L is determined;\n4. Operations (1) and (2) satisfy the conditions:</string>
+    <string name="lae_17">f. there is an element called zero such that x + 0 = x ;\ng. for any x∈L we have x ⋅ 1= 1 ⋅ x = x\nh. for any x∈L there is an element −x, called its opposite, such that x + (−x) = 0.</string>
+    <string name="lae_18">The set of all n-dimensional vectors forms a linear vector space Rⁿ.</string>
+    <string name="lae_19">Properties of linear vector space:\n1. In every linear vector space there is a single element 0;\n2. In every linear vector space, any element corresponds to a unique opposite element;\n3. For any element ar, the equality 0 ⋅ a = 0;\n4. For any number α, the equality α ⋅ 0 = 0 is true;\n5. For each element ar, −a = (−1) ⋅ a .</string>
+    <string name="lae_20">LINEAR INDEPENDENCE OF VECTORS</string>
+    <string name="lae_21">It is defined in the same way as in the case of three-dimensional geometric vectors: if for a system of k vectors a₁, a₂,..., ak the equality</string>
+    <string name="lae_22">is true only for λi = 0, i = (1,... , k), then this system is called linearly independent.</string>
+    <string name="lae_23">Consequently, solving the question of linear dependence or independence of a system of k n -dimensional vectors comes down to studying a linear homogeneous system of n equations with k unknowns:</string>
+    <string name="lae_24">It can be shown that if the vectors a1, a1, ...,ak are linearly dependent, then at least one of them can be represented as a linear combination of the others and vice versa.</string>
+    <string name="lae_25">BASIS OF LINEAR VECTOR SPACE AND VECTOR COORDINATES</string>
+    <string name="lae_26">Any collection of n linearly independent vectors is called a basis of the space Rn if each vector from the space Rn can be represented as a linear combination of vectors of this collection, i.e.</string>
+    <string name="lae_27">This representation of a vector is called its decomposition over a given basis. The numbers x1, x2, ..., xn are called the coordinates of the vector in this basis.</string>
+    <string name="lae_28">The coordinates of the vector relative to some basis e1, e2, ..., en are determined in a unique way.</string>
+    <string name="lae_29">The dimension of the space Rⁿ is the number of vectors in any of its basis. This means that if the dimension of a space is n, then n linearly independent vectors can be specified in it, and any n + 1 vectors of this space are linearly dependent.</string>
+    <string name="lae_30">TRANSITION TO A NEW BASIS</string>
+    <string name="lae_31">Since Rⁿ may not have a single basis, the question arises about the transition from expansion in one basis to expansion in another basis.</string>
+    <string name="lae_32">Let there be two bases: e1, e2, ..., en and ε1, ε2, ..., εn, and let some vector be expanded into the bases:</string>
+    <string name="lae_33">Obviously, the basis vectors ε1, ε2, ..., εn can also be expanded into the basis e1, e2, ..., en.</string>
+    <string name="lae_34">Let\'s compose the transition matrix T:</string>
+    <string name="lae_35">then X = T ⋅ X′ or the inverse relation X ′ = T −¹ ⋅ X .</string>
+    <string name="lae_36">The matrix T is called the coordinate transformation matrix for</string>
+    <string name="lae_37">EUCLIDEAN SPACE</string>
+    <string name="lae_38">A linear space is called Euclidean if it defines an operation that assigns any two elements x ∈ L and y ∈ L a number called the scalar product and denoted (x, y), for which the following holds:</string>
+    <string name="lae_39">Denoted by Eⁿ</string>
+    <string name="lae_40">A linear space is called normed if each element x ∈ L is associated with a non-negative number, called its norm x. In this case, the axioms are satisfied:</string>
+    <string name="lae_41">If we take as the norm of any vector from Rⁿ its length ||x|| =|x| , then it becomes clear that Rⁿ is a Euclidean, normed space.</string>
+    <string name="lae_42">ORTHONORMAL BASIS</string>
+    <string name="lae_43">The operation of normalizing a vector is understood as multiplying a non-zero vector by the number 1/|a|</string>
+    <string name="lae_44">Vectors from Rⁿ are called orthogonal if they satisfy the equality</string>
+    <string name="lae_45">A basis of a vector space is called orthogonal if the vectors of this basis are pairwise orthogonal.</string>
+    <string name="lae_46">If all vectors of an orthogonal basis have unit length, then the basis is called orthonormal.</string>
+    <string name="lae_47">In every vector space there is an orthonormal basis.</string>
+    <string name="lae_48">LINEAR OPERATORS</string>
+    <string name="lae_49">If a law is given that associates each vector x ∈ Rⁿ with a vector y ∈ Rⁿ, then they say that the operator Α is given in the space, and write: y = Ax</string>
+    <string name="lae_50">An operator A is called linear if for any x₁ ∈ Rⁿ and x₂ ∈ Rⁿ and an arbitrary number α the following conditions are satisfied:</string>
+    <string name="lae_51">LINEAR OPERATOR MATRIX</string>
+    <string name="lae_52">Consider in the space Rⁿ a basis е₁, е₂, ..., еₙ , and let in this</string>
+    <string name="lae_53">Due to the linearity of operator A, we can write:</string>
+    <string name="lae_54">But each Aeᵢ can be expanded according to the basis e₁, e₂, ..., eₙ, i.e.</string>
+    <string name="lae_55">Substituting the expansions into y = Ax and equating the coefficients of the basis vectors, we obtain:</string>
+    <string name="lae_56">Thus, the linear operator A in a given basis corresponds to a square matrix</string>
+    <string name="lae_57">which is called the matrix of the linear operator A, the i-th column of which consists of the coordinates of the vector Aeᵢ relative to the given basis.</string>
+    <string name="lae_58">ACTIONS WITH LINEAR OPERATORS</string>
+    <string name="lae_59">The sum of linear operators A and B is operator C, defined by the equality:</string>
+    <string name="lae_60">Obviously, the matrix of the linear operator of the sum is equal to the sum of the matrices of the linear operators of the terms C = A + B</string>
+    <string name="lae_61">The product of a linear operator A and a number α is the operator αA, defined by the equality:</string>
+    <string name="lae_62">The matrix of this operator is equal to α ⋅ A.</string>
+    <string name="lae_64">Let linear operators A and B be defined in Rⁿ in such a way that y = Bx , z = Ay</string>
+    <string name="lae_65">The product A · B of linear operators A and B is the operator C, defined by the relation:</string>
+    <string name="lae_66">RELATIONSHIP BETWEEN LINEAR OPERATOR MATRICES IN DIFFERENT BASES</string>
+    <string name="lae_67">Let the linear operator y = Ax or in matrix form Y = AX be given with respect to a given basis e₁, e₂, ..., eₙ. Let us choose another basis ε₁, ε₂, ..., εₙ in the same space. Relative to this basis, the matrix of the linear operator will be different. Let us denote by T the coordinate transformation matrix, and X′ and Y′ the decomposition of vectors in the new basis, i.e.</string>
+    <string name="lae_68">Substituting, we get TY′ = ATX′, multiplying by T⁻¹, we get Y′ = T⁻¹ ATX′.</string>
+    <string name="lae_69">So, when moving to a new basis, the matrix of the linear operator changes and becomes equal to T⁻¹ AT.</string>
+    <string name="lae_70">EIGENVECTORS AND EIGENVALUES OF THE LINEAR OPERATOR</string>
+    <string name="lae_71">A nonzero vector x is called an eigenvector of a linear operator A if there is a number λ such that the equality Ax = λx holds. In this case, the number λ is called the eigenvalue (eigenvalue) of the operator A, corresponding to the vector x. The set of all eigenvalues of an operator A is called its spectrum.</string>
+    <string name="lae_72">In order to find the eigenvalues and eigenvectors of the linear operator A, consider the matrix of the linear operator A in some basis (n = 3):</string>
+    <string name="lae_73">Then by definition</string>
+    <string name="lae_74">So, the matter came down to solving a system of linear homogeneous equations. Obviously, the system has a non-zero solution if det (A −λE) = 0</string>
+    <string name="lae_75">The equation det ( A −λ E) = 0 is called the characteristic equation of the operator A; the polynomial det ( A −λ E) is called the characteristic polynomial of the operator A. In coordinate form, the characteristic equation has the form:</string>
+    <string name="lae_76">The characteristic polynomial of a linear operator does not depend on the choice of basis.</string>
+    <string name="lae_77">If a linear operator has n different eigenvalues, then the corresponding eigenvectors are linearly independent and the matrix of this operator written in a basis consisting of eigenvectors has a diagonal form.</string>
+    <string name="lae_78">SQUARE SHAPES</string>
+    <string name="lae_79">A quadratic form Φ(x₁, x₂, ..., xₙ) of n variables is a sum, each term of which is either the square of one of the variables or the product of two different variables taken with a certain coefficient:</string>
+    <string name="lae_80">Let\'s write the quadratic form in standard form:</string>
+    <string name="lae_81">A quadratic form is said to be non-degenerate if r(A) = n. In matrix notation, the quadratic form is:</string>
+    <string name="lae_82">The type of matrix of quadratic form is determined by the basis in which the vector is specified.</string>
+    <string name="lae_83">A quadratic form is called canonical if aⱼᵢ = 0, i ≠ j and its matrix is diagonal.</string>
+    <string name="lae_84">Any quadratic form can be reduced to canonical form using a non-degenerate linear transformation of variables.</string>
+    <string name="lae_63">The product A·B of linear operators A and B is the operator C defined by the relation</string>
+    <string name="ag_1">Analytic geometry</string>
+    <string name="ag_2">A rectangular (Cartesian) coordinate system is specified by two mutually perpendicular straight lines, on each of which a positive direction is selected and a unit segment is specified.</string>
+    <string name="ag_3">Consider an arbitrary point M of the Oxy plane. The vector OM is called the radius vector of the point M.</string>
+    <string name="ag_4">The coordinates of point M in the Oxy coordinate system are called</string>
+    <string name="ag_5">The polar coordinate system is defined by the point O, called the pole, by the ray Op, called the polar axis.</string>
+    <string name="ag_6">The position of point M is determined by two numbers: the distance r from the pole and the angle ϕ formed by the segment OM with the polar axis (counterclockwise).</string>
+    <string name="ag_7">The numbers r and ϕ are called the polar coordinates of the point M, they write M (r,ϕ), while r is the polar radius, ϕ is the polar angle.</string>
+    <string name="ag_8">The relationship between rectangular and polar coordinates is expressed as follows:</string>
+    <string name="ag_9">COORDINATE SYSTEM TRANSFORMATIONS</string>
+    <string name="ag_10">The transition from one coordinate system to another is called a coordinate system transformation.</string>
+    <string name="ag_11">By parallel transfer of coordinate axes we mean a transition to a new O₁XY system, in which the position of the origin of coordinates changes, but the direction and scale remain unchanged.</string>
+    <string name="ag_12">Let the O₁X and O₁Y axes be parallel to the Ox and Oy axes. Let’s say a point M (x, y) in the O₁XY coordinate system has X and Y coordinates. Let’s establish a connection between them.</string>
+    <string name="ag_13">From the drawing it is clear that r = OO₁ + R. If O₁(a,b) is relative to the Oxy system, then</string>
+    <string name="ag_14">Rotation of coordinate axes is understood as a transformation of coordinates in which both axes are rotated by the same angle, but the origin and scale remain unchanged.</string>
+    <string name="ag_15">Let\'s rotate the original coordinate system Oxy by angle α, and let it take the position Ox₁y₁ . We obtain the relations</string>
+    <string name="ag_16">DIVISION OF A SEGMENT IN A GIVEN RELATIONSHIP</string>
+    <string name="ag_17">The segment AB, where A( x₁, y₁) , B(x₂, y₂) is divisible in a given ratio λ > 0.</string>
+    <string name="ag_18">AM =λMB, but AM = (x - x₁, y - y₁), and MB = (x₂ − x, y₂ − y).</string>
+    <string name="ag_19">Considering that equal vectors have equal coordinates, we get</string>
+    <string name="ag_20">LINES ON THE PLANE</string>
+    <string name="ag_21">The equation F (r, ϕ) = 0 is called the equation of a line in the polar coordinate system.</string>
+    <string name="ag_22">A line on a plane can be defined using two equations (parametric equation):</string>
+    <string name="ag_23">where x and y are the coordinates of an arbitrary point, and t is a variable called a parameter.</string>
+    <string name="ag_24">A line on a plane can be specified by a vector equation: r = r(t). When changing the parameter, the end of the vector rr will describe a certain line.</string>
+    <string name="ag_25">EQUATION OF A LINE ON THE PLANE</string>
+    <string name="ag_26">The position of the line on the plane is uniquely determined by the ordinate of the point N (0,b) of intersection with the Oy axis and the angle α between the Ox axis and the line:</string>
+    <string name="ag_27">Denoting k = tanα, we obtain the equation of a straight line with an angular coefficient y = kx + b.</string>
+    <string name="ag_28">If the line is parallel to the Ox axis, then α = 0 and k = tanα = 0. The equation will take the form y = b.</string>
+    <string name="ag_29">If the straight line is parallel to the Oy axis, then</string>
+    <string name="ag_30">and tgα does not exist. The equation will take the form x = a.</string>
+    <string name="ag_31">Consider a first degree equation for x and y in the general form Ax + By + C = 0. Let us show that this is the equation of a straight line on a plane.</string>
+    <string name="ag_32">If B = 0, the equation is Ax + C = 0, i.e.</string>
+    <string name="ag_33">This is a straight line parallel to the Oy axis. If B ≠ 0, then we get</string>
+    <string name="ag_34">equation of a line with slope</string>
+    <string name="ag_35">The equation Ax + By + C = 0 is called the general equation of a straight line.</string>
+    <string name="ag_36">Some special cases of the general equation of a line:</string>
+    <string name="ag_37">1. If A = 0, then the equation is y = −CB. This equation\nstraight line parallel to the Ox axis;\n2. If B = 0, then the straight line is parallel to the Oy axis;\n3. If C = 0, then the straight line passes through the origin.</string>
+    <string name="ag_38">The equation of a straight line passing through the point M₀(x₀, y₀) perpendicular to a non-zero vector n = ( A,B) is obtained if we write the condition of perpendicularity of the vectors n = ( A,B) r and M₀M, where the point M(x, y) is an arbitrary point straight.</string>
+    <string name="ag_39">This equation can be rewritten as</string>
+    <string name="ag_40">Equation of a line passing through two points:</string>
+    <string name="ag_41">If the straight line intersects the Ox axis at the point M₁(a,0), and the Oy axis at the point M₂(0,b).</string>
+    <string name="ag_42">In this case</string>
+    <string name="ag_43">It is called the equation of a straight line in segments.</string>
+    <string name="ag_44">STRAIGHT ON THE PLANE. MAIN TASKS.</string>
+    <string name="ag_45">Let the lines be given by equations with angular coefficients y = k₁x + b₁ and y = k₂x + b₂. Let\'s find the angle ϕ by which one line must be rotated around the point of their intersection until it coincides with the other line.</string>
+    <string name="ag_46">We have α₂ = ϕ + α₁ (external angle of the triangle) or ϕ = α₂ − α₁.</string>
+    <string name="ag_47">Then</string>
+    <string name="ag_48">or taking into account k₁ = tanα, k₂ = tanα₂, we obtain</string>
+    <string name="ag_49">If the lines are parallel, then k₁ = k₂.</string>
+    <string name="ag_50">If the lines are perpendicular, then k₁ ⋅ k₂ = −1.</string>
+    <string name="ag_51">If the lines are given by the equations A₁x + B₁y + C₁ = 0 and A₂x + B₂y + C₂ = 0, then the perpendicularity condition will be written A₁A₂ + B₁B₂ = 0. And the parallelism condition:</string>
+    <string name="ag_52">SECOND ORDER LINES</string>
+    <string name="ag_53">An ellipse is a set of points on a plane, the sum of the distances from which to two given points, called foci, is a constant value (equal to 2a, a > 0), greater than the distance between the foci (2c).</string>
+    <string name="ag_54">Let us draw the Ox axis through the foci of the ellipse, from F₁ to F₂. Let\'s take the origin of coordinates in the middle of the segment F₁F₂. The foci have coordinates F₁ (−c,0) , F₂(c,0).</string>
+    <string name="ag_55">Let the point M (x, y) belong to the ellipse, the vectors r₁ and r₂ are called its focal radius vectors.</string>
+    <string name="ag_56">By definition |r₁| + |r₂| = 2a, from here</string>
+    <string name="ag_57">Denoting a² - c² = b², we obtain the canonical equation of the ellipse:</string>
+    <string name="ag_58">An ellipse intersects the coordinate axes at points A₁(-a, 0), A₂(a, 0), B₁(0, b), B₂(0, -b), which are called the vertices of the ellipse. Segments |A₁A₂| = 2a, |В₁В₂| = 2b are called the major and minor axes of the ellipse. The ellipse is symmetrical about the coordinate axes and the origin. The shape of an ellipse can be characterized using eccentricity:</string>
+    <string name="ag_59">The greater the eccentricity, the more elongated the ellipse is along the Ox axis. If ε = 0, then the ellipse turns into a circle.</string>
+    <string name="ag_60">HYPERBOLA</string>
+    <string name="ag_61">A hyperbola is a set of points on a plane, the modulus of the difference in distances from which to two given points, called foci, is a constant value (equal to 2a, a > 0), less than the distance between the foci.</string>
+    <string name="ag_62">Let us draw the Ox axis through the foci of the hyperbola. Let\'s take the origin of coordinates in the middle of the segment F₁F₂. The focuses have coordinates F₁(-с, 0), F₂(с, 0).</string>
+    <string name="ag_63">Let the point M (x, y) belong to a hyperbola; by virtue of the definition of a hyperbola, the following holds for the focal radius vectors r₁ and r₂:</string>
+    <string name="ag_64">Let us perform similar transformations and denoting c² − a² = b², we obtain the canonical equation of the hyperbola</string>
+    <string name="ag_65">The hyperbola is symmetrical with respect to the coordinate axes and the origin, consists of two branches that intersect with the Ox axis at points A₁(-a, 0), A₂(a, 0), which are called the vertices of the hyperbola. Segment |А₁А₂| = 2a is called the real axis. Points В₁(0, b), В₂(0, -b) are called imaginary vertices of the hyperbola, the segment |В₁В₂| = 2b is called the imaginary axis. The shape of a hyperbola is characterized by eccentricity:</string>
+    <string name="ag_66">It is clear that ε >1, and the closer it is to unity, the stronger the branches of the hyperbola are pressed to the Ox axis.</string>
+    <string name="ag_67">A hyperbola has asymptotes</string>
+    <string name="ag_68">The curve defined by the equation</string>
+    <string name="ag_69">hyperbola - symmetrical about the Ox axis.</string>
+    <string name="ag_70">Hyperboles</string>
+    <string name="ag_71">which have common asymptotes are called conjugate.</string>
+    <string name="ag_72">PARABOLA</string>
+    <string name="ag_73">A parabola is a set of points on a plane equidistant from a given line, called the directrix of the parabola, and from a given point, called the focus.</string>
+    <string name="ag_74">Let us draw the Ox axis through the focus perpendicular to the directrix. We denote the distance from the directrix to the focus by p and call it the parameter of the parabola. Let\'s take the origin of coordinates in the middle of the segment connecting the focus with the directrix. Let us drop a perpendicular from the point M (x, y) on the parabola to the directrix. Let its base be point N, then |NM| = |FM|, which follows</string>
+    <string name="ag_75">We have the canonical equation of the parabola y² = 2px</string>
+    <string name="ag_76">The parabola is symmetrical about the Ox axis and passes through the origin.</string>
+    <string name="ag_77">The second-order curves discussed above have canonical equations only with respect to specially selected coordinate systems. In an arbitrary coordinate system, the second-order equation has the form:</string>
+    <string name="ag_78">This is a general second order curve equation.</string>
+    <string name="ag_79">It can be brought to canonical form using coordinate transformations, and the type of curve can be determined immediately by calculating the determinant</string>
+    <string name="ag_80">If Δ > 0, then the curve is elliptic.\nIf Δ is less than 0, then the curve is of hyperbolic type.\nIf Δ = 0, then the curve is parabolic.</string>
+    <string name="ags_1">An. geometry in space</string>
+    <string name="ags_2">PLANE IN THREE-DIMENSIONAL SPACE</string>
+    <string name="ags_3">Let the plane Q in space be defined by the point M₀(x₀, y₀, z₀) and the vector n = (A,B,C) perpendicular to this plane. Let us derive the equation of this plane. Let\'s take an arbitrary point M (x, y, z) on it and compose a vector M₀M = (x₀ - x, y₀ - y, z₀ - z). For any location of the point M ( x, y, z) on the Q plane, the vectors n and М₀М are mutually perpendicular, therefore their scalar product is equal to zero:</string>
+    <string name="ags_4">This equation is called the plane equation in vector form. The vector n = ( A,B,C) is called the normal vector of the plane.</string>
+    <string name="ags_5">Denoting by D = −Ax₀ − By₀ −Cz₀, we write the equation in the form Ax + By + Cz + D = 0</string>
+    <string name="ags_6">This equation is called the general equation of the plane.</string>
+    <string name="ags_7">Special cases of the general plane equation:</string>
+    <string name="ags_8">1. If D = 0, then the equation takes the form Ax + By + Cz = 0. This equation is satisfied by the point O(0,0,0). The plane passes through the origin.\n2. If C = 0, then the equation takes the form Ax + By + D = 0. The normal vector n = (A,B,0) is perpendicular to the Oz axis. Therefore, the plane is parallel to the Oz axis; if B = 0 - parallel to the Oy axis, if A = 0 - parallel to the Ox axis.\n3. If C = D = 0, then the plane passes through O(0,0,0) parallel to the Oz axis, i.e. passes through the Oz axis. Same with other axes.\n4. If A = B = 0, then the equation takes the form Cz + D = 0 or z = -(D/C). The plane is parallel to the Oxy plane. Same with other planes.\n5. If A = B = D = 0, then the equation takes the form Cz = 0 or z = 0. This is the equation of the Oxy plane. Same with other planes.</string>
+    <string name="ags_9">A single plane passes through three points in space that do not lie on the same straight line. Let us find the equation of the plane Q passing through the points М₁(x₁, y₁, z₁), М₂(x₂, y₂, z₂) and М₃(x₃, y₃, z₃). Let\'s take an arbitrary point M (x, y, z) on the plane and compose the vectors</string>
+    <string name="ags_10">These vectors lie in the Q plane, therefore they are coplanar. Let us write down the condition for the coplanarity of three vectors (the mixed product is equal to zero):</string>
+    <string name="ags_11">Thus, this is the equation of a plane passing through three points.</string>
+    <string name="ags_12">Let the plane cut off the segments a,b,c on the axes Ox, Oy and Oz, respectively, i.e. passes through points A(a,0,0), B(0,b,0), C(0,0,c) . Substituting the coordinates of the points into the previous equation, we get</string>
+    <string name="ags_13">Expanding the determinant, we get bcx + acy + abz = abc or</string>
+    <string name="ags_14">plane equation in segments.</string>
+    <string name="ags_15">The position of the plane Q is completely determined by the unit vector e, which has the direction of the perpendicular dropped to the plane from the origin, and the length p of this perpendicular.</string>
+    <string name="ags_16">Let α,β,γ be the angles formed by e with the coordinate axes. Then e = (cosα ,cosβ ,cosγ ). Let us take an arbitrary point M (x, y, z) on the plane and its radius vector r = OM = (x, y, z).</string>
+    <string name="ags_17">Then r ⋅ e = p is the normal plane equation in vector form. Knowing the coordinates of the vectors, we can write xcosα + y cosβ + z c</string>
+    <string name="ags_18">This equation is called the normal equation of the plane in coordinate form.</string>
+    <string name="ags_19">PLANE. MAIN GOALS.</string>
+    <string name="ags_20">Let two planes Q₁ and Q₂ be given:</string>
+    <string name="ags_21">The angle ϕ between planes is the angle between the normals n₁ = (A₁, B₁, C₁) and n₂ = (A₂, B₂, C₂). That\'s why:</string>
+    <string name="ags_22">If the planes are perpendicular, then their normals are also perpendicular, i.e.</string>
+    <string name="ags_23">— the condition of perpendicularity of two planes.</string>
+    <string name="ags_24">If the planes are parallel, then their normals are also parallel, i.e.</string>
+    <string name="ags_25">— condition of parallelism of two planes.</string>
+    <string name="ags_26">Let the point M₀(x₀,y₀,z₀) and the plane Q be given by its equation Ax + By + Cz + D = 0. The distance d from the point to the plane is found by the formula</string>
+    <string name="ags_27">EQUATION OF A LINE IN SPACE</string>
+    <string name="ags_28">The position of a line in space is determined if any point M₀(x₀,y₀,z₀) on the line and a vector S = (m, n, p) parallel to this line is given - a direction vector.</string>
+    <string name="ags_29">Let\'s take an arbitrary point M (x, y, z) on the line. Let us denote the radius vectors of points M₀ and M as r₀ and r, respectively. Obviously, r = r₀ + M₀M, but M₀M = tS, where t is a numerical factor called a parameter. Finally, we write r = r₀ + tS. This equation is called the vector equation of a line.</string>
+    <string name="ags_30">Noting that r = (x, y, z), r₀ = (x₀, y₀, z₀), tS = (tm,tn,tp), the vector equation of a line can be written as</string>
+    <string name="ags_31">This implies the equalities:</string>
+    <string name="ags_32">They are called parametric line equations.</string>
+    <string name="ags_33">Vectors M₀M and S are collinear, which means their coordinates are proportional:</string>
+    <string name="ags_34">This equation is called the canonical equation of the line.</string>
+    <string name="ags_35">Let the straight line pass through the points M₁(x₁, y₁, z₁), M₂(x₂, y₂, z₂). As a direction vector you can take the vector</string>
+    <string name="ags_36">therefore m = x₂ - x₁, n = y₂ - y₁, p = z₂ - z₁. According to the equation, we can write</string>
+    <string name="ags_37">- equation of a line passing through two points.</string>
+    <string name="ags_38">A straight line in space can be defined as the line of intersection of two non-parallel planes:</string>
+    <string name="ags_39">This is the general equation of a line. From it we can go to the canonical equation. We obtain the coordinates of the point M₀ from a system of equations, giving one variable an arbitrary value (for example, z = 0). Because the straight line is perpendicular to the vectors n₁ and n₂, then n₁ x n₂ can be taken as the direction vector</string>
+    <string name="ags_40">STRAIGHT IN SPACE. MAIN GOALS.</string>
+    <string name="ags_41">The angle between straight lines is the angle between the direction vectors</string>
+    <string name="ags_42">That\'s why</string>
+    <string name="ags_43">If the lines are perpendicular, then</string>
+    <string name="ags_44">If the lines are parallel, then</string>
+    <string name="ags_45">STRAIGHT AND FLAT IN SPACE. MAIN GOALS.</string>
+    <string name="ags_46">The plane is given by the equation Ax + By + Cz + D = 0, and the straight line by the equations</string>
+    <string name="ags_47">If the straight line and the plane are parallel, then the vectors n and S are perpendicular, i.e. Am + Bn + Cp = 0 .</string>
+    <string name="ags_48">A straight line is perpendicular to a plane if the vectors n and S are parallel, therefore</string>
+    <string name="ags_49">SECOND ORDER SURFACES</string>
+    <string name="ags_50">A surface formed by the movement of a straight line L, maintaining a constant direction, along some curve K, is called a cylindrical surface or cylinder.</string>
+    <string name="ags_51">The curve K is called the directive, and the straight line is called the generator.</string>
+    <string name="ags_52">Let the curve K lie in the Oxy plane and its equation F(x, y) = 0, and the straight line L be parallel to the Oz axis.</string>
+    <string name="ags_53">The name of the cylinder is determined by the name of the guide: elliptical (circular), hyperbolic and parabolic cylinder.</string>
+    <string name="ags_54">The surface formed by straight lines passing through a given point P and intersecting a given line K is called a conical surface or cone.</string>
+    <string name="ags_55">Line K is the guide, point P is the vertex, and the straight line describing the surface is the generatrix.</string>
+    <string name="ags_56">CANONICAL EQUATIONS FOR SECOND ORDER SURFACES</string>
+    <string name="ags_57">An ellipsoid is a surface whose canonical equation has the form:</string>
+    <string name="ags_58">We study this surface using the method of sections. Let\'s draw a plane parallel to the Oxy plane. The equation of such a plane is z = h. The line obtained in the section is determined by the system of equations</string>
+    <string name="ags_59">• If |h| > c ,</string>
+    <string name="ags_60">There are no intersection points between the surface and the plane.</string>
+    <string name="ags_61">• If |h| = c, i.e. h = ±c, then</string>
+    <string name="ags_62">The intersection line degenerates into two points (0,0,−c) and (0,0,c) . The planes z = c and z = −c are tangent to this surface.</string>
+    <string name="ags_63">• If |h| is less than c, we get the equation</string>
+    <string name="ags_64">This is an ellipse with semi-axes</string>
+    <string name="ags_65">Similar results will be obtained when cutting by planes x = h and y = h.</string>
+    <string name="ags_66">This surface is symmetrical relative to all three coordinate axes. The coordinate axes intersect with the surface at points (±a,0,0),(0,±b,0),(0,0,±c). The parameters a, b, c are called the semi-axes of the ellipsoid.</string>
+    <string name="ags_67">If a = b = c, then the ellipsoid turns into a sphere</string>
+    <string name="ags_68">If any two semi-axes are equal, then the ellipsoid is called an ellipsoid of revolution.</string>
+    <string name="ags_69">A single-sheet hyperboloid is a surface whose canonical equation has the form</string>
+    <string name="ags_70">A two-sheet hyperboloid is a surface whose canonical equation has the form</string>
+    <string name="ags_71">An elliptic paraboloid is a surface whose canonical equation is</string>
+    <string name="ags_72">The surface has the shape of a bowl. If p = q the surface is called a paraboloid of revolution.</string>
+    <string name="ags_73">A hyperbolic paraboloid is a surface whose canonical equation has the form</string>
+    <string name="ags_74">The surface has the shape of a saddle.</string>
+    <string name="f_1">Functions</string>
+    <string name="f_2">Some notations:</string>
+    <string name="f_3">1. ⇒ - “Should”;\n2. ⇔-“equivalence”;\n3. ∃-“exists” (existence quantifier);\n4. ∀-“for any” (general quantifier);\n5. ∈-“belongs” (for an element);\n6. ⊂-“belongs” (for a subset).</string>
+    <string name="f_4">NUMERICAL SYSTEMS</string>
+    <string name="f_5">1. Natural numbers (N)\n2. Integers (Z)\n3. Rational numbers (Q)</string>
+    <string name="f_6">4. Real numbers (R) ∃q∈Q such that 𝑞2=2</string>
+    <string name="copy_mail">Email copied</string>
+    <string name="f_7">Real numbers are finite and infinite decimal fractions. Real numbers are divided into rational and irrational.</string>
+    <string name="f_8">Some axioms of real numbers:</string>
+    <string name="f_9">1. Arithmetic</string>
+    <string name="f_10">2. Axioms of order</string>
+    <string name="f_11">3. Non-negativity of the square.</string>
+    <string name="f_12">4. Axiom of completeness</string>
+    <string name="f_13">There are different powers of infinite sets:</string>
+    <string name="f_14">1. Countable sets are those that can be counted. Sets in which there are the same number of elements as in the set N or otherwise of equal cardinality to N or in which each element of this set can be associated with exactly one element of the set N (bijection) are called countable.</string>
+    <string name="f_15">2. Power sets continuum.</string>
+    <string name="f_16">3. Modulus of a real number. The modulus of a real number x is the quantity |x|</string>
+    <string name="f_17">Affirmative properties of the module:</string>
+    <string name="f_18">CONCEPT OF FUNCTION</string>
+    <string name="f_19">A function (map) with a domain of definition X ∈ R and a domain of value Y ∈ R is called a correspondence between the sets X and Y, such that each element of the set X corresponds to at most one element of the sets Y.</string>
+    <string name="f_20">Notation: y = f(x); f: X→Y, x→y</string>
+    <string name="f_21">Displays are:</string>
+    <string name="f_22">Surjective (“on”)</string>
+    <string name="f_23">Each element Y corresponds to a single element X.</string>
+    <string name="f_24">Injective: this means that for every element of X there is a single element of Y.</string>
+    <string name="f_25">A mapping is called bijective if it is both surjective and injective, i.e. one-to-one.</string>
+    <string name="f_26">Elementary classification of function.</string>
+    <string name="f_27">1) Monotony</string>
+    <string name="f_28">a) increasing</string>
+    <string name="f_29">b) non-increasing</string>
+    <string name="f_30">c) non-decreasing</string>
+    <string name="f_31">d) decreasing</string>
+    <string name="f_32">2) Frequency</string>
+    <string name="f_33">a) periodic</string>
+    <string name="f_34">b) non-periodic</string>
+    <string name="f_35">3) Parity</string>
+    <string name="f_36">a) even</string>
+    <string name="f_37">b) odd</string>
+    <string name="f_38">c) neither</string>
+    <string name="f_39">Elementary functions.</string>
+    <string name="f_40">1) Rational functions</string>
+    <string name="f_41">- polynomials</string>
+    <string name="f_42">2) Irrational functions (roots)</string>
+    <string name="f_43">3) Exponential and logarithmic functions</string>
+    <string name="f_44">4) Trigonometric and inverse trigonometric functions</string>
+    <string name="f_45">Principle of mathematical induction</string>
+    <string name="f_46">If some property holds for some natural numbers n = 1;2, and if we can show that just because it is true for n = k, then it is also true for n = k +1 for arbitrary k, then it is true for arbitrary n.</string>
+    <string name="f_47">Elements of combinatorics</string>
+    <string name="f_49">1. Arrangements are sets of elements that differ in quantity and order</string>
+    <string name="f_50">(Aₙ)ᵐ — number of placements from n to m</string>
+    <string name="f_51">2. Combinations are sets of elements that differ only in composition.</string>
+    <string name="f_52">(Сₙ)ᵐ—the number of combinations from n to m.</string>
+    <string name="f_53">3. Permutations are sets of elements that differ only in order.</string>
+    <string name="f_54">Pₙ is the number of permutations.</string>
+    <string name="f_55">Binomial theorem</string>
+    <string name="f_56">LIMIT AND CONTINUITY.</string>
+    <string name="f_57">Sequence limit</string>
+    <string name="f_58">A sequence of real numbers is a function defined on the set of natural numbers (IN). f N→R</string>
+    <string name="f_59">A sequence is called bounded if:</string>
+    <string name="f_60">A sequence is said to be bounded from above if there exists an M(∃M∈R) such that for any n belonging to</string>
+    <string name="f_61">A sequence is said to be bounded below if</string>
+    <string name="f_62">The sequence {𝑥ₙ} is called:</string>
+    <string name="f_63">- increasing if:</string>
+    <string name="f_64">- non-decreasing if:</string>
+    <string name="f_65">- not increasing if:</string>
+    <string name="f_66">- decreasing if:</string>
+    <string name="f_67">The sequence {xₙ} has a limit A as n→∞ if for any ε>0 there exists N∈N, which for any n>N</string>
+    <string name="f_68">If A is finite, then the sequence is called convergent.</string>
+    <string name="f_69">A neighborhood of point A (ε - neighborhood) is the set of real numbers x, so that</string>
+    <string name="f_70">Denial of the existence of a limit</string>
+    <string name="f_71">The sequence has no limit at all if the given negation is true for any real A.</string>
+    <string name="f_72">Properties of a sequence limit:\n1. Any neighborhood of the limit contains all points of the sequence, with the possible exception of a finite number of them.\n2. The limit of a constant is a constant.</string>
+    <string name="f_73">3. Uniqueness of the limit</string>
+    <string name="f_74">If there is a limit, then it is the only one.</string>
+    <string name="f_75">4. Arithmetic of the limit</string>
+    <string name="f_76">5. Limits and inequalities</string>
+    <string name="f_77">Comparison theorem</string>
+    <string name="f_78">6. Cauchy criterion for the existence of a limit of a sequence.</string>
+    <string name="f_79">8. Weierstrass test (criterion) for the convergence of a monotonic sequence:</string>
+    <string name="f_80">A non-decreasing (non-increasing) sequence has a limit if and only if it is bounded from above (from below).</string>
+    <string name="f_81">The second remarkable limit:</string>
+    <string name="f_82">Function limit</string>
+    <string name="f_83">Let the function f(x) be defined in some neighborhood of point a. A is the limit of a function as x tends to a if</string>
+    <string name="f_84">Relationship between function limit and sequence limit</string>
+    <string name="f_85">Some properties of the limit of a function:</string>
+    <string name="f_86">1. Uniqueness of the limit.</string>
+    <string name="f_87">so f(x) is bounded in U(a)</string>
+    <string name="f_88">so 1/f(x) is bounded in U(a)</string>
+    <string name="f_89">One-sided limits</string>
+    <string name="f_90">A is the right (left) limit of f(x) at point a if</string>
+    <string name="f_91">INFINITELY SMALL AND INFINITELY LARGE</string>
+    <string name="f_92">Basic properties of the limit of a function</string>
+    <string name="f_93">The function α(x) is called infinitesimal when</string>
+    <string name="f_94">The function α(x) is said to be infinitely large when</string>
+    <string name="f_95">Properties of infinitely large and infinitely small</string>
+    <string name="f_96">Let 𝛼(𝑥), 𝛽(𝑥) be infinitesimal – for x→a</string>
+    <string name="f_97">1. 𝛼(𝑥𝑥) + 𝛽(𝑥𝑥)− infinitesimal 2. 𝛼(𝑥) ∙ 𝛽(𝑥) − infinitesimal 3. If 𝑓(𝑥) is limited at some 𝑈(𝑎), then 𝛼(𝑥) ∙ 𝑓(𝑥) is infinitesimal 4. If 𝑓(𝑥) is limited at some 𝑈(𝑎) and 𝑓(𝑥)≠0, ∀𝑥∈𝑈(𝑎) ⇒ 𝛼(𝑥)/𝑓(𝑥) - infinitesimal 5. 1/𝛼(𝑥) - infinitely large 6. 𝛾(𝑥) − infinitely large ⇒ 1/𝛾(𝑥) - infinitely small</string>
+    <string name="f_98">Arithmetic of limits</string>
+    <string name="f_99">Composition Limit or Complex Function Limit</string>
+    <string name="f_100">Mean value theorem</string>
+    <string name="f_101">The first remarkable limit.</string>
+    <string name="f_102">Comparison of infinitely large and infinitely small</string>
+    <string name="f_103">α(x), β(x) are infinitesimal. α(x) is an infinitesimal of higher order than β(x) as x→a if</string>
+    <string name="f_104">α(x) is an infinitesimal of lower order than β(x) as x→a if</string>
+    <string name="f_105">They say that α(x), β(x) are infinitesimals of the same order as x→a if the limit of their ratio is equal to a nonzero constant.</string>
+    <string name="f_106">Comparison of infinitesimals</string>
+    <string name="f_107">1. α(x) ~ α₁(x), β(x) ~ β₁(x), as x → α ⇒</string>
+    <string name="f_108">exist or do not exist simultaneously and are equal in the case of existence.</string>
+    <string name="f_109">α(x), β(x) are infinitesimal at</string>
+    <string name="f_110">- infinitely small, the smaller of the orders of the terms.</string>
+    <string name="f_111">3. α(x) ~ β(x), for x → α ⇒ α(x) - β(x) there are infinitesimals of a higher order than α(x), β(x).</string>
+    <string name="pr_1">Derivatives</string>
+    <string name="pr_2">The increment of argument x at point xₒ is called the difference Δx:=x-xₒ. The increment of a function for a given increment of argument Δx is the difference</string>
+    <string name="pr_3">f(x) – defined in some neighborhood Uхₒ. The derivative of a function f(x) at a point xₒ is the limit of the ratio of the increment of the function to the increment of the argument if the increment of the argument tends to zero and the limit exists</string>
+    <string name="pr_4">Differently:</string>
+    <string name="pr_5">A function f(x) is called differentiable at a point x₀ if</string>
+    <string name="pr_6">f(x) is said to be differentiable on a set E if it is differentiable at every point of the set E.</string>
+    <string name="pr_7">Relationship between differentiability and continuity.</string>
+    <string name="pr_8">f(x) is differentiable at the point x₀ ⇒ f(x) is continuous at the point x₀.</string>
+    <string name="pr_9">The statement above means that differentiability implies continuity, but not vice versa, namely: you cannot say that a function is differentiable because it is continuous.</string>
+    <string name="pr_10">Tangent to the graph of a function.</string>
+    <string name="pr_11">The straight line y = kx + b is called tangent to the graph of the function y = f(x) at point x₀ if the value f(x₀ + Δx) - (k(x₀ + Δx) + b) is an infinitesimal of a higher order than Δx at Δх → 0, i.e.</string>
+    <string name="pr_12">Tangent equation:</string>
+    <string name="pr_13">The normal to the graph of the function f(x) at the point x₀ is the line ⊥ tangent to the graph of the function at this point.</string>
+    <string name="pr_14">Normal equation:</string>
+    <string name="pr_15">Derivative arithmetic.</string>
+    <string name="pr_16">U(x) and υ(x) are differentiable at the point x₀ ⇒ at the point x₀ the following is true:</string>
+    <string name="pr_17">Derivative composition.</string>
+    <string name="pr_18">Derivative of the inverse function.</string>
+    <string name="pr_19">y = f(x) is monotone and differentiable on E ⊂ R ⇒ ∃f⁻¹(y) is monotone and differentiable:</string>
+    <string name="pr_20">HIGHER ORDER DERIVATIVES</string>
+    <string name="pr_21">Derivative of nth order. Inductive determination.</string>
+    <string name="pr_22">- this expression is called the differential of the function at the point x₀. It is important to note that the differential depends on both Δx and x₀; in this case x₀ acts as a parameter, and in Δx the differential is linear, i.e. The differential is a linear function of the increment Δx, which is determined only in the neighborhood of a given point and, generally speaking, changes when moving from point to point.</string>
+    <string name="pr_23">Differential properties</string>
+    <string name="pr_24">Let u and v be differentiable at the point x₀ ⇒ at the point x₀:</string>
+    <string name="pr_25">Differential of a complex function</string>
+    <string name="pr_26">y = f(g(x)) – differentiable function ⇒</string>
+    <string name="pr_27">Inductive determination of nth order differential</string>
+    <string name="pr_28">Formula for nth order differential:</string>
+    <string name="pr_29">Derivative of a function given parametrically.</string>
+    <string name="pr_30">t ∈ E – function defined parametrically</string>
+    <string name="pr_31">Vector function.</string>
+    <string name="pr_32">Expression</string>
+    <string name="pr_33">is called a vector - function of the argument t.</string>
+    <string name="pr_34">Derivative of a vector function</string>
+    <string name="pr_35">The tangent to the trajectory at a given point is a straight line, which is the limiting position of the secant, if this is uniquely determined.</string>
+    <string name="prlist_1">List of derivatives</string>
+    <string name="in_1">Indefinite integral</string>
+    <string name="in_2">ANTIDERIVATIVE AND INDETERMINATE INTEGRAL</string>
+    <string name="in_3">F(x) is called antiderivative for f(x) on the set E if</string>
+    <string name="in_4">A sufficient sign of the presence of an antiderivative</string>
+    <string name="in_5">If f(x) is continuous on (a ; b) ⇒</string>
+    <string name="in_6">Continuity is a sufficient but not necessary condition for the presence of F(x), i.e. there are discontinuous functions that have an antiderivative.</string>
+    <string name="in_7">General view of the antiderivative</string>
+    <string name="in_8">F₁(х), F₂(х) are antiderivatives for</string>
+    <string name="in_9">where C = const</string>
+    <string name="in_10">An expression of the form F(x) + C, where F(x) is the antiderivative for f(x), C= const, is called the indefinite integral for f(x).</string>
+    <string name="in_11">Attitude</string>
+    <string name="in_12">where P(x), Q(x) are polynomials, is called a rational fraction (rational relation, rationality).</string>
+    <string name="in_13">If the degree of the numerator is less than the degree of the denominator, then the fraction is proper. If the degree of the numerator is greater than the degree of the denominator, the fraction is improper.</string>
+    <string name="in_14">Factoring a polynomial</string>
+    <string name="in_15">P(x) is a polynomial,</string>
+    <string name="in_16">in this case x₁...xₗ are all real roots of the polynomial, k₁...kₗ are the multiplicities of the roots x₁...xₗ, and the square trinomials</string>
+    <string name="in_17">are irreducible (i.e. have no real roots)</string>
+    <string name="in_18">Expression of the form</string>
+    <string name="in_19">x² + px + q − irreducible is called the simplest fraction.</string>
+    <string name="in_20">Decomposing a proper rational fraction into simpler fractions</string>
+    <string name="in_21">Let</string>
+    <string name="in_22">be a proper rational fraction</string>
+    <string name="in_23">We consider A=1</string>
+    <string name="in_24">INTEGRATING SIMPLE FRACTIONS</string>
+    <string name="in_25">(1.1)perform a complete square</string>
+    <string name="in_26">(1.2) we perform a complete square and carry out a similar transformation:</string>
+    <string name="in_27">We get:</string>
+    <string name="in_28">Let\'s denote</string>
+    <string name="in_29">Then</string>
+    <string name="in_30">Recurrence formula</string>
+    <string name="in_31">Using this formula we go down to the integral, where n=1.</string>
+    <string name="in_32">Then, going up, we calculate all the integrals Iₙ up to and including the last one needed. Thus, substituting into the appropriate sum and making the reverse substitution, we obtain the integral for the last simplest fraction.</string>
+    <string name="in_33">Thus, a rational expression is always integrable, i.e. its antiderivative is always expressed through elementary functions. Therefore, most integration methods will involve reducing the integral by changing a variable to an integral of rational functions.</string>
+    <string name="in_34">INTEGRATING SOME IRRATIONALITY</string>
+    <string name="in_35">A rational expression for x₁...xₙ is an expression R(x₁...xₙ), which is obtained from these variables using four operations.</string>
+    <string name="in_36">1. Integrals of the form</string>
+    <string name="in_37">− irreducible fraction, then</string>
+    <string name="in_38">Using this replacement, the integral is reduced to the integral of a rational function.</string>
+    <string name="in_39">d x− contains only a rational expression for y.</string>
+    <string name="in_40">As a result we get:</string>
+    <string name="in_41">Special cases:</string>
+    <string name="in_42">3. Integrals of the form</string>
+    <string name="in_43">We select a complete square under the root, make a replacement, and we get one of 3 cases.</string>
+    <string name="in_44">As a result of these replacements, we obtain a rational expression for trigonometric functions.</string>
+    <string name="in_45">Euler substitutions:</string>
+    <string name="in_46">further similar</string>
+    <string name="in_47">3) x₁ and x₂ roots of the polynomial ax² + bx + c are real and distinct</string>
+    <string name="in_48">INTEGRATING SOME TRIGONOMETRIC EXPRESSIONS</string>
+    <string name="in_49">1. Integrals of the form</string>
+    <string name="in_50">Universal replacement</string>
+    <string name="in_51">A universal substitution transforms such an integral into:</string>
+    <string name="in_52">2. Integrals of the form</string>
+    <string name="in_53">3. Integrals of the products sin x and cos x</string>
+    <string name="in_54">1. m, n ∈ Z and at least 1 is odd. A replacement is made with a function that is to an even degree.</string>
+    <string name="in_55">2. m, n ∈ Z are both even. t = tgx, t = ctgx</string>
+    <string name="in_56">3. Let at least one of m, n be an integer and odd, then a replacement is made with the function not odd. degree, the integral of irrationality is obtained, and it is considered by the previous methods.</string>
+    <string name="in_57">Convert using trigonometric formulas to the sum or difference of sin x and cos x.</string>
+    <string name="in_58">The integration methods described above do not exhaust all possible ones.</string>
+    <string name="in_59">Let us recall that the presence of an antiderivative for f(x) in general and the presence of an antiderivative expressed through elementary functions are not the same thing. There are wide classes of non-integrable functions. For example, the following integrals are not taken:</string>
+    <string name="indefinite_1">List of indefinites</string>
+    <string name="in_60">BASIC PROPERTIES OF INDEFENITE INTEGRALS</string>
+    <string name="in_61">Let all the integrals below exist (for example, all the integrands are continuous).\nThen the following statements are true:</string>
+    <string name="in_62">1. Linearity</string>
+    <string name="in_63">2. Integration by parts</string>
+    <string name="in_64">3. Variable replacement</string>
+    <string name="in_65">ϕ(x) − smooth</string>
+    <string name="de_1">Definite integral</string>
+    <string name="de_2">Let f(x) be defined on [a;b]. Let\'s split the segment:</string>
+    <string name="de_3">Let\'s select points</string>
+    <string name="de_4">Let\'s make the sum:</string>
+    <string name="de_5">Let\'s enter:</string>
+    <string name="de_6">Let\'s go to the limit of the sum as 0 → λ.</string>
+    <string name="de_7">If the limit exists, is finite and does not depend on the choice of partition of the segment and marked points, then it is called a definite integral of the function f(x) on the segment [a;b] or the Riemann integral.</string>
+    <string name="de_8">Designation:</string>
+    <string name="de_9">Based on the definition, we can say that we can calculate:</string>
+    <string name="de_10">Move:</string>
+    <string name="de_11">Action:</string>
+    <string name="de_12">Area of a curved trapezoid:</string>
+    <string name="de_13">Existence theorem for a definite integral</string>
+    <string name="de_14">f(x) is continuous on [a;b] ⇒</string>
+    <string name="de_15">(If the function is continuous, then it is integrable)</string>
+    <string name="de_16">A necessary condition for the existence of a definite integral:</string>
+    <string name="de_17">If the function f(x) is integrable on [a;b] , then f(x) is bounded on [a;b].</string>
+    <string name="de_18">Basic properties of the definite integral</string>
+    <string name="de_19">1. Linearity</string>
+    <string name="de_20">2. Additivity</string>
+    <string name="de_21">3. Integrals and inequalities</string>
+    <string name="de_22">Mean value theorem for a definite integral</string>
+    <string name="de_23">f(x) is continuous on [a;b] ⇒</string>
+    <string name="de_24">A sufficient condition for the existence of a indefinite integral:</string>
+    <string name="de_25">Let f(x) be continuous on [a;b] ⇒</string>
+    <string name="de_26">− defined, continuous, differentiable on (a;b), and:</string>
+    <string name="de_27">(the integral of a continuous function takes place).</string>
+    <string name="de_28">Newton-Leibniz formula:</string>
+    <string name="de_29">f(x) is continuous on [a;b] , Ф(х) is any antiderivative of f(x) on [a;b] ⇒</string>
+    <string name="de_30">Let\'s denote:</string>
+    <string name="de_31">Changing a variable in a definite integral</string>
+    <string name="de_32">f(x) is continuous on [a;b], φ(t) is defined on [α;β]</string>
+    <string name="de_33">1. φ(t) is smooth, i.e. φ\'(t) is continuous on [α;β]</string>
+    <string name="de_34">Integration by parts in a definite integral</string>
+    <string name="de_35">MEASURE OF A SET ON R</string>
+    <string name="de_36">The length (measure) of the segment [a;b] is called</string>
+    <string name="de_37">It is assumed that the length of the intervals [a;b),(a;b), (a;b] is equal to μ([a;b]).</string>
+    <string name="de_38">The set of measure zero on R</string>
+    <string name="de_39">1. A point is a set of measure zero.\n2. The union of a finite or countable number (at most countable) of sets of measure zero is a set of measure zero.\n3. A subset of a set of measure zero is a set of measure zero.</string>
+    <string name="de_40">Lebesgue criterion for Riemannian integrability of a function or a necessary and sufficient condition for the existence of a definite integral</string>
+    <string name="de_41">f(x) is integrable on [a;b] ⇔ f(x) - bounded and continuous almost everywhere on [a;b] .</string>
+    <string name="de_42">Example:</string>
+    <string name="de_43">Improper definite integral</string>
+    <string name="de_44">the function f(x) is integrable on [a;b] ([b;a])</string>
+    <string name="de_45">f(x) is called integrable in an improper sense on the interval [a;+∞)((-∞;a ])</string>
+    <string name="de_46">Designation:</string>
+    <string name="de_47">f(x) is integrable on [a;b] ([b;a])</string>
+    <string name="de_48">f(x) is said to be integrable in an improper sense on the interval [a;c) ((c;a])</string>
+    <string name="de_49">The resulting limit is called an improper integral.</string>
+    <string name="de_50">Basic properties of an improper definite integral</string>
+    <string name="de_51">1. Linearity</string>
+    <string name="de_52">2. Additivity</string>
+    <string name="de_53">3. Integration by parts</string>
+    <string name="de_54">4. Replacement of variables</string>
+    <string name="de_55">φ(t) is smooth on [α;β] ;</string>
+    <string name="de_56">SIGNS OF CONVERGENCE OF IMPROPER INTEGRALS</string>
+    <string name="de_57">Comparison theorem</string>
+    <string name="de_58">f(x), g(x) – continuous on [a;ω) ; f(x) ≥ g(x) ≥ 0 on [a;ω] then if:</string>
+    <string name="de_59">- converges</string>
+    <string name="de_60">- diverges</string>
+    <string name="de_61">Asymptotic comparison theorem</string>
+    <string name="de_62">as x → ω, f(x) and g(x) are integrable on [a;ω) ⇒</string>
+    <string name="de_63">converge or diverge simultaneously.</string>
+    <string name="de_64">Abel-Dirichlet convergence test or special convergence test</string>
+    <string name="de_65">f(x), g(x) – continuous on [a;ω)</string>
+    <string name="de_66">For the convergence of the integral</string>
+    <string name="de_67">It is enough to fulfill any of a couple of conditions:</string>
+    <string name="de_68">a₁) The following integral:</string>
+    <string name="de_69">- converges</string>
+    <string name="de_70">b₁) g(x) is monotonic and bounded on [a;ω)</string>
+    <string name="de_71">a₂) the antiderivative of f is defined and bounded on [a;ω)</string>
+    <string name="de_72">b₂) g(x) is monotonic and g(x) → 0, as x → ω</string>
+    <string name="ap_1">Applications of def. int.</string>
+    <string name="ap_2">ARC LENGTH OF CURVE</string>
+    <string name="ap_3">The arc length is a number that satisfies the following conditions:\n1. Positivity l>0.\n2. Unique definiteness with respect to the arc ∃!l.\n3. Additivity:</string>
+    <string name="ap_4">If α ⊂ β - arcs ⇒</string>
+    <string name="ap_5">5. The length does not change with movements of the plane and space.\n6. Length of the segment l([0;1]) = 1</string>
+    <string name="ap_6">Arc length</string>
+    <string name="ap_7">4. Curved</string>
+    <string name="ap_8">5. Curve arc length</string>
+    <string name="ap_9">*We fit the curved line γ into the arc γ</string>
+    <string name="ap_10">If the limit exists and does not depend on the choice of partitions, then it is called the arc length. The curve is considered to have length and is called rectifiable. If the limit does not exist or is equal to ∞, then the curve has no length or it is not rectifiable.</string>
+    <string name="ap_11">Any continuous curve is rectifiable.</string>
+    <string name="ap_12">Formulas for calculating arc length:</string>
+    <string name="ap_13">1. Curve – graph of a function.</string>
+    <string name="ap_14">(1.1) Lagrange\'s theorem</string>
+    <string name="ap_15">2. Curve, specified parametrically (general case)\nLet the curve be given like this:</string>
+    <string name="ap_16">Where γ is smooth</string>
+    <string name="ap_17">We believe that the curve can be specified as a graph of a function.</string>
+    <string name="ap_18">Arc differential</string>
+    <string name="ap_19">Expression:</string>
+    <string name="ap_20">or</string>
+    <string name="ap_21">is called the arc differential and is denoted dl.</string>
+    <string name="ap_22">AREA OF A FLAT FIGURE</string>
+    <string name="ap_23">By the area of a figure we mean an object that satisfies the following conditions:\n1. S∈R, S ≥ 0\n2. S is uniquely determined by the figure.\n3. S is additive:</string>
+    <string name="ap_24">5. S does not change when space moves.\n6. S of a square with side 1 is equal to 1.</string>
+    <string name="ap_25">Areas of plane figures</string>
+    <string name="ap_26">1. Area of a rectangle</string>
+    <string name="ap_27">2. Area of a polygon</string>
+    <string name="ap_28">1) Triangle</string>
+    <string name="ap_29">2) Polygon</string>
+    <string name="ap_30">3) Any flat figure</string>
+    <string name="ap_31">D is figure</string>
+    <string name="ap_32">If</string>
+    <string name="ap_33">- Polygons</string>
+    <string name="ap_34">such that</string>
+    <string name="ap_35">then they say that D is squarable, i.e. has area.</string>
+    <string name="ap_36">Formulas for calculating the areas of plane figures</string>
+    <string name="ap_37">1.Area of a curved trapezoid</string>
+    <string name="ap_38">and let f(x) be integrable on [a;b]</string>
+    <string name="ap_39">It is obvious that S₁ and S₂ → to the same thing, to the integral:</string>
+    <string name="ap_40">Thus, it was shown that</string>
+    <string name="ap_41">As a result, the area of the curved trapezoid is equal to:</string>
+    <string name="ap_42">d) Let</string>
+    <string name="ap_43">e) f(x) , g(x) on [a:b]</string>
+    <string name="ap_44">2.A figure bounded by a curve defined parametrically</string>
+    <string name="ap_45">a) Curvilinear trapezoid</string>
+    <string name="ap_46">Thus, the area of the trapezoid is:</string>
+    <string name="ap_47">Area of a curved trapezoid:</string>
+    <string name="ap_48">b) General case. Let a smooth curve be given that forms a closed contour.</string>
+    <string name="ap_49">γ - counterclockwise contour</string>
+    <string name="ap_50">S can be calculated using any of 3 formulas:</string>
+    <string name="ap_51">3. Polar sector area</string>
+    <string name="ap_52">Let\'s say there is a curve given in polar coordinates.</string>
+    <string name="ap_53">You can derive a formula for calculating S using step 2</string>
+    <string name="ap_54">Let us partition [α;β]</string>
+    <string name="ap_55">The area of the sector is known:</string>
+    <string name="ap_56">α - radius</string>
+    <string name="ap_57">CALCULATION OF BODY VOLUME</string>
+    <string name="ap_58">1. Volume of a body with known cross sections</string>
+    <string name="ap_59">S(x) ∀x ∈ [a; b] known\nLet\'s split [a; b]:</string>
+    <string name="ap_60">Let\'s choose:</string>
+    <string name="ap_61">Special case: Volume of a body of revolution</string>
+    <string name="ap_62">2. Surface area of a body of rotation</string>
+    <string name="ap_63">- According to Lagrange\'s theorem</string>
+    <string name="ap_64">General scheme of applications of a definite integral</string>
+    <string name="ap_65">The ability to use a definite integral to describe a certain value V arises under the following conditions:</string>
+    <string name="ap_66">Let it be possible to associate a pair of functions and a segment (f(x),[a;b]) with some number V, i.e. V is a function of two variables (function and segment). In this case, the following conditions are met:</string>
+    <string name="ap_67">1. The quantity V (f(x),[a;b]) is an additive function of the segment [a;b], i.e.</string>
+    <string name="ap_68">for Δx→0 or any equivalent condition is true:</string>
+    <string name="ap_69">a) approximate equality</string>
+    <string name="ap_70">true to an infinitesimal precision of a higher order than Δx.</string>
+    <string name="ap_71">b) Relative error of equality (*)→0 for Δx→0, i.e.</string>
+    <string name="ap_72">CENTERS OF MASS</string>
+    <string name="ap_73">1. Mass of curve and flat plate</string>
+    <string name="ap_74">In the future, we will assume that our objects are homogeneous, therefore ρ = const Consider ρ ≡ 1. In this case, the mass is numerically equal to l or S.</string>
+    <string name="ap_75">2. Center of mass</string>
+    <string name="ap_76">1) System of material points</string>
+    <string name="ap_77">Ml− static moment of the system relative to l</string>
+    <string name="ap_78">M₀ₓ – static moment relative to OX\nM₀ᵧ − static moment relative to ОY</string>
+    <string name="ap_79">C = (x₀ ; y₀) is called the center of mass of the system of material points.</string>
+    <string name="ap_80">The center of mass of homogeneous figures (with constant density ρ≡1) is called the geometric center of mass.</string>
+    <string name="ap_81">Geometric centers of mass</string>
+    <string name="ap_82">1. Uniform curve</string>
+    <string name="ap_83">2. Flat homogeneous plate</string>
+    <string name="ap_84">The case of a curved trapezoid</string>
+    <string name="ap_85">- center of mass of the i − th interval</string>
+    <string name="ap_86">− static moment relative to:</string>
+    <string name="ap_87">Gulden\'s first theorem</string>
+    <string name="ap_88">The surface area formed by the rotation of a curve around an axis that does not intersect it is equal to the length of this curve multiplied by the circumference of the circle described by its center of mass.</string>
+    <string name="ap_89">Gulden\'s second theorem</string>
+    <string name="ap_90">The volume of a body formed by the rotation of a flat figure around an axis that lies in the same plane with it and does not intersect it is equal to the area of the figure multiplied by the length of the circle described by the center of mass of the figure.</string>
+    <string name="ns_1">Number series</string>
+    <string name="ns_2">An infinite sum may not exceed a certain number.</string>
+    <string name="ns_3">The formal infinite sum a₁ + a₂ + ... + aₙ + ..., where aₙ ∈ R, n ∈ N is called a number series.</string>
+    <string name="ns_4">Designation:</string>
+    <string name="ns_5">Convergence of number series</string>
+    <string name="ns_6">is called the nth partial sum of the series.</string>
+    <string name="ns_7">is called the sum of the series. If S is less than ∞, then the series is called convergent, otherwise divergent (S=∞, S does not exist).</string>
+    <string name="ns_8">Thus, the convergence of a series is the convergence of the numerical sequence of its partial sums.</string>
+    <string name="ns_9">Elementary properties of series</string>
+    <string name="ns_10">If the row</string>
+    <string name="ns_11">converges (diverges), then the series</string>
+    <string name="ns_12">where A = const, also converges (diverges).</string>
+    <string name="ns_13">Moreover, in the case of convergence</string>
+    <string name="ns_14">2. If the rows</string>
+    <string name="ns_15">converge ⇒</string>
+    <string name="ns_16">- converges. Moreover:</string>
+    <string name="ns_17">(1.1) Final sum\n(1.2) Properties of the limit</string>
+    <string name="ns_18">Cauchy criterion for the convergence of a number series</string>
+    <string name="ns_19">converges ⇔</string>
+    <string name="ns_20">Let us recall the Cauchy criterion for number sequences (immediately for Sn) Sn - converges ⇔</string>
+    <string name="ns_21">Let\'s substitute the amount:</string>
+    <string name="ns_22">We get:</string>
+    <string name="ns_23">For the new N(ε) we take N(ε) + 1.</string>
+    <string name="ns_24">The meaning of the Cauchy criterion is that the convergence of the series means that starting from a certain moment a₁ + ... + aₙ + (...) the tail of the series is arbitrarily small.</string>
+    <string name="ns_25">Corollary of the Cauchy criterion:</string>
+    <string name="ns_26">The finite number of terms of a series does not affect its convergence. If a finite number of terms of the series are changed, then to check convergence it is enough to take N in the Cauchy criterion to be greater than the maximum of the numbers of the changed terms.</string>
+    <string name="ns_27">Without affecting the convergence of the series, the finite number of terms in the series affects the specific value of the sums.</string>
+    <string name="ns_28">A necessary sign of convergence of a number series</string>
+    <string name="ns_29">converges ⇒</string>
+    <string name="ns_30">ABSOLUTELY CONVERGING SERIES</string>
+    <string name="ns_31">A series is said to be absolutely convergent if the series of moduli of its terms converges. If a series of modules do not converge, but the series itself converges, then the series is called conditionally convergent.</string>
+    <string name="ns_32">Properties of absolutely convergent series:</string>
+    <string name="ns_33">1. If a series converges absolutely, then it converges.\n2. In an absolutely convergent series, rearranging any number of terms, both finite and infinite, does not affect convergence.</string>
+    <string name="ns_34">Comparison theorem</string>
+    <string name="ns_35">- converges ⇒</string>
+    <string name="ns_36">- diverges ⇒</string>
+    <string name="ns_37">Asymptotic comparison theorem</string>
+    <string name="ns_38">aₙ and bₙ– values of the same order at</string>
+    <string name="ns_39">and even equivalent ⇒ series converge or diverge simultaneously.</string>
+    <string name="ns_40">SUFFICIENT SIGNS OF CONVERGENCE OF NUMERIC SERIES</string>
+    <string name="ns_41">Weierstrass majorant sign</string>
+    <string name="ns_42">- converges absolutely</string>
+    <string name="ns_43">Radical Cauchy\'s sign</string>
+    <string name="ns_44">α is less than 1 ⇒ series converges absolutely\nα > 1 ⇒ series diverges\nα = 1 ⇒ uncertainty, the series can both converge and diverge</string>
+    <string name="ns_45">D\'Alembert\'s sign</string>
+    <string name="ns_46">Cauchy integral test</string>
+    <string name="ns_47">f(x) is defined on [1, +∞), continuous, non-increasing, and non-negative on it. Then:</string>
+    <string name="ns_48">- converges</string>
+    <string name="ns_49">- diverges</string>
+    <string name="ns_50">An alternating series is a series of the form:</string>
+    <string name="ns_51">Leibniz test for the convergence of sign of alternating series</string>
+    <string name="ns_53">⇒ series converges (not absolutely)</string>
+    <string name="ns_54">Abel-Dirichlet test</string>
+    <string name="ns_55">1) Abel:</string>
+    <string name="ns_56">{Sₙ}− is monotonic and limited,</string>
+    <string name="ns_57">− convergent ⇒ the original series also converges</string>
+    <string name="ns_58">2) Dirichlet:</string>
+    <string name="ns_59">{bₙ} − monotone {bₙ} → 0</string>
+    <string name="ns_60">{Sₙ} − limited ⇒</string>
+    <string name="ns_61">− converges</string>
+    <string name="ns_62">The Abel–Dirichlet test is a sign of conditional rather than absolute convergence.</string>
+    <string name="ns_63">REMAINDER OF A NUMERIC SERIES AND ITS ESTIMATE</string>
+    <string name="ns_64">nth remainder of the number series</string>
+    <string name="ns_65">The nth remainder of a number series is the quantity</string>
+    <string name="ns_66">Estimating the remainder of a number series using the remainder of a majorizing series</string>
+    <string name="ns_67">Estimation of the remainder of a series convergent according to the Leibniz test</string>
+    <string name="ns_68">- converges according to Leibniz\'s test ⇒</string>
+    <string name="fs_1">Functional sequences and series</string>
+    <string name="fs_2">{fₙ(x)} which has a common domain of definition and is bijectively mapped onto a set of natural numbers (or a countable set of functions) is called a functional sequence.</string>
+    <string name="fs_3">Pointwise convergence of a functional sequence</string>
+    <string name="fs_4">Let fₙ(x) be defined on E ∀n ∈ N. The sequence is said to be:</string>
+    <string name="fs_5">Absolute convergence of a sequence of functions</string>
+    <string name="fs_6">The sequence of a function converges absolutely if the sequence of its modules converges.</string>
+    <string name="fs_7">Pointwise absolute convergence is insufficient for constructing the theory of functional sequences, because generally speaking, the limit of a sequence of even very “good” functions can be a “bad” function.</string>
+    <string name="fs_8">Uniform convergence of a functional sequence</string>
+    <string name="fs_9">Uniform convergence is the main type of good convergence of a functional sequence. It allows sequences of \"good\" functions to have a \"good\" limit.</string>
+    <string name="fs_10">Uniform convergence and continuity</string>
+    <string name="fs_11">fₙ(x) - continuous on E ⇒ f(x) - continuous on E</string>
+    <string name="fs_12">FUNCTIONAL SERIES</string>
+    <string name="fs_13">Pointwise convergence of a functional series</string>
+    <string name="fs_14">Functional series:</string>
+    <string name="fs_15">converges pointwise on a set E if the sequence of its partial sums converges pointwise.</string>
+    <string name="fs_16">converge pointwise to some function S(x) .</string>
+    <string name="fs_17">A functional series converges absolutely if the series of modules converges pointwise.</string>
+    <string name="fs_18">is called uniformly convergent if the sequence of its partial sums converges uniformly.</string>
+    <string name="fs_19">A functional series that converges uniformly and absolutely is called regularly convergent.</string>
+    <string name="fs_20">Weierstrass test for the correct convergence of a functional series:</string>
+    <string name="fs_21">- converges correctly on E</string>
+    <string name="fs_22">If a functional series converges absolutely on E, then it converges pointwise on E. If a series converges uniformly on E, then it converges pointwise on E.</string>
+    <string name="fs_23">Uniform series convergence and continuity</string>
+    <string name="fs_24">- converges uniformly on [a,b] ; aₙ(x) − continuous on [a,b] ⇒</string>
+    <string name="fs_25">- continuous on [a,b]</string>
+    <string name="fs_26">Uniform convergence of a functional series and differentiability</string>
+    <string name="fs_27">- converges uniformly on [a,b]</string>
+    <string name="fs_28">(aₙ(x) - smooth on [a,b])</string>
+    <string name="fs_29">Let the series of derivatives converge uniformly on [a,b] ⇒ S(x) be differentiable on [a,b], and:</string>
+    <string name="fs_30">− converges uniformly at at least one point [a,b] aₙ(x) − smooth on [a,b]</string>
+    <string name="fs_31">- converges uniformly on [a,b] ⇒ (*)</string>
+    <string name="fs_32">Uniform convergence of function series and integrability</string>
+    <string name="fs_33">- converges uniformly on [a,b] and let aₙ(x) be integrable on [a,b] ⇒ S(x) be integrable on [a,b], and:</string>
+    <string name="fs_34">Uniform convergence of a functional series and multiplication by a function</string>
+    <string name="fs_35">- converges uniformly on [a,b] , ϕ(x) is bounded on [a,b] ⇒</string>
+    <string name="fs_36">- converges uniformly on [a,b], and:</string>
+    <string name="fs_37">Uniformly convergent series behave similarly to finite sums.</string>
+    <string name="fs_38">POWER SERIES</string>
+    <string name="fs_39">Functional series:</string>
+    <string name="fs_40">called a power series.</string>
+    <string name="fs_41">To simplify the notation, we will consider in our discussions, where possible, x₀ = 0</string>
+    <string name="fs_42">Convergence interval of power series</string>
+    <string name="fs_43">(1.1) - converges absolutely\n(1.2) - the series converges\n(1.3) - uncertainty</string>
+    <string name="fs_44">Power series as uniformly convergent</string>
+    <string name="fs_45">- converges to (-R; R) ⇒</string>
+    <string name="fs_46">the series converges uniformly on [-r; r]</string>
+    <string name="fs_51">1) Since r is arbitrary in the range from 0 to R, we say that the series converges uniformly on (-R;R), meaning that it converges on any segment in this interval.</string>
+    <string name="fs_52">2) From all this it follows that the power series converges not only uniformly, but also correctly on (-R;R).</string>
+    <string name="fs_53">Properties of a power series as uniformly convergent</string>
+    <string name="fs_54">- converges to (-R;R).</string>
+    <string name="fs_55">1. S(x) is continuous on (-R;R).</string>
+    <string name="fs_56">2. S(x) is differentiable on (-R;R), and:</string>
+    <string name="fs_57">3. S(x) - integrable on any interval inside (-R;R), and:</string>
+    <string name="fs_58">ANALYTICAL FUNCTION</string>
+    <string name="fs_59">f(x) is called analytic at point x₀ if:</string>
+    <string name="fs_60">f(x) is analytic at the point x₀ ⇒</string>
+    <string name="fs_61">Moreover:</string>
+    <string name="fs_62">Type range:</string>
+    <string name="fs_63">is called the Taylor series for the function f(x) in V(x0), in particular, if x0 = 0, it is called the McLaren series:</string>
+    <string name="fs_65">Taylor series remainder</string>
+    <string name="fs_66">for f(x).</string>
+    <string name="fs_67">Function:</string>
+    <string name="fs_68">is called the partial sum of a Taylor series.</string>
+    <string name="fs_69">is called the n-residue term of the Taylor series.</string>
+    <string name="fs_70">Types of Taylor series remainder</string>
+    <string name="fs_71">f(x) − (n+1) times differentiable in U(x₀) ⇒</string>
+    <string name="fs_72">- Peano</string>
+    <string name="fs_73">- Lagrange</string>
+    <string name="fs_74">- Cauchy</string>
+    <string name="fs_75">Sufficient condition for representing a Taylor series function</string>
+    <string name="fs_76">f(x) - infinitely differentiable in</string>
+    <string name="fs_77">⇒ f(x) - analytic in UR(x₀)</string>
+    <string name="fs_78">EXPANSION OF ELEMENTARY FUNCTIONS INTO POWER SERIES</string>
+    <string name="fs_79">We fix R (-R;R) f⁽ⁿ⁾(x) = eˣ</string>
+    <string name="fs_80">By a sufficient condition, the function is expanded into a McLaren series in (−R;R). Because R is arbitrary, then we can assume that eˣ is expanded into a series on the entire number axis (-∞;∞)</string>
+    <string name="fs_81">- true for any real number</string>
+    <string name="fs_82">sinx – expands into a McLaren series on the entire number line.</string>
+    <string name="fs_83">7. Binomial series:</string>
+    <string name="fs_84">BASIC WAYS TO EXPAND FUNCTIONS INTO SERIES.\nSERIES APPLICATIONS.</string>
+    <string name="fs_85">1. The expansion is obtained based on the theorem by estimating the remainder term. This is how standard expansions are obtained. Technically this is a difficult method. Based on standard expansions, other methods can be obtained.</string>
+    <string name="fs_86">2. Replacement of variables.</string>
+    <string name="fs_87">Linear substitutions are mainly used; the convergence region, generally speaking, changes.</string>
+    <string name="fs_88">3. Differentiation and integration of series.</string>
+    <string name="fs_89">Using integration and differentiation of series, one can obtain an expansion of the derivatives or antiderivative sums of these series.</string>
+    <string name="fs_90">Basic applications of power series</string>
+    <string name="fs_91">1. Estimation of the asymptotic behavior of the function.\n2. Approximate calculations of the values of functions, integrals, etc., including using a computer.\n3. Solving algebraic, and especially differential equations.</string>
+    <string name="fmp_1">Functions of many variables</string>
+    <string name="fmp_2">n – dimensional Euclidean space</string>
+    <string name="fmp_3">n − dimensional Euclidean space (lRn) is the set of tuples (x¹, …, xⁿ), where xⁱ ∈ lRⁿ.</string>
+    <string name="fmp_4">Designation:</string>
+    <string name="fmp_5">Above - coordinate number, below - point number</string>
+    <string name="fmp_6">Operations in IRⁿ:</string>
+    <string name="fmp_7">1. Addition, subtraction</string>
+    <string name="fmp_8">2. Multiplying by a number</string>
+    <string name="fmp_9">3. Module in IRⁿ</string>
+    <string name="fmp_10">4. Distance between points</string>
+    <string name="fmp_11">The set on which the first 2 operations are specified is called a linear vector space.</string>
+    <string name="fmp_12">The set on which the distance between points is specified is called metric, i.e. IRⁿ – is a linear vector normalized or linear metric space.</string>
+    <string name="fmp_13">The set of points IRⁿ that satisfies the condition ρ(x;a) is less than δ for some fixed a ∈ IRⁿ is called a δ - neighborhood (spherical neighborhood)</string>
+    <string name="fmp_14">A set G contained in IRⁿ is called open if each point is included in G along with its certain spherical neighborhood.</string>
+    <string name="fmp_15">A set G ⊂ IRⁿ is called connected if for any two points lying in G there is a continuous path connecting them and entirely lying in G.</string>
+    <string name="fmp_16">An open connected set in IRⁿ is called a region.</string>
+    <string name="fmp_17">Region is the main used analogue of neighborhood in IRn. In what follows, the neighborhood of a point, except in specified cases, means any area containing it.</string>
+    <string name="fmp_18">A point x₀ ∈ G is called a boundary point of a set G if any of its neighborhood contains both points ∈ G and points not ∈ G.\nThe boundary of a set G is the set of its boundary points.</string>
+    <string name="fmp_19">Designation: G = ∂G</string>
+    <string name="fmp_20">An interior point of a set G is a point of this set that is included in G along with some of its neighborhood.\nObviously, any point of an open set is its interior point, i.e. an open set has no boundaries.</string>
+    <string name="fmp_21">The closure of a set G is its union with its boundary:</string>
+    <string name="fmp_22">A set G contained in IRⁿ is called bounded if it is contained in some circle.</string>
+    <string name="fmp_23">The closure of a connected bounded set in IRⁿ is called a compact set.\nExample: A compact circle is a circle with a boundary.\nA compactum is an analogue of a segment in the multidimensional case.</string>
+    <string name="fmp_24">FUNCTIONS OF n - VARIABLES</string>
+    <string name="fmp_25">Set matching:</string>
+    <string name="fmp_26">in which each element of the set G corresponds to at most one element of the set D is called a function of n − variables with a domain of definition G and a domain of value D.</string>
+    <string name="fmp_27">Geometric aspect</string>
+    <string name="fmp_28">the graph lies in IR² ∙ IR = IR³</string>
+    <string name="fmp_29">the graph lies in IR³ ∙ IR = IR⁴</string>
+    <string name="fmp_30">A graph of a function of more than 2 variables cannot be plotted, since it requires a space of more than 3 dimensions.</string>
+    <string name="fmp_31">A generalization of the concept of a function of n − variables and the most general type of real mapping is:</string>
+    <string name="fmp_32">If:</string>
+    <string name="fmp_33">n = m = 1, then this is a regular function\nn = 1, m = 2, then this is a function of 2 real variables\nn = 1, m = 3, then this is a function of 3 real variables\nm = 3, n = 1, then this is a vector function\nm = 1, n − arbitrary − is a function of n real variables</string>
+    <string name="fmp_34">LIMIT AND CONTINUITY OF THE FUNCTION OF n - VARIABLES</string>
+    <string name="fmp_35">Sequence:</string>
+    <string name="fmp_36">is called a mapping from IN to IRⁿ</string>
+    <string name="fmp_37">The statement above means that a limit of a multidimensional sequence exists if and only if there are limits of sequences of its coordinates.</string>
+    <string name="fmp_38">Limit of a function of n-variables</string>
+    <string name="fmp_39">f(x) is defined on the set:</string>
+    <string name="fmp_40">Continuity of a function of n-variables</string>
+    <string name="fmp_41">f(x) is defined in some neighborhood V(a), a ∈ IRⁿ, f(x) is continuous at a point if:</string>
+    <string name="fmp_42">f(x) is continuous on a set E if it is continuous at every point of this set.</string>
+    <string name="fmp_43">Global properties of a continuous function or properties of a function continuous on compact sets:</string>
+    <string name="fmp_44">f(x) is continuous on some compact set G ⊂ IRⁿ ⇒\n1. f(x) is bounded on G\n2. ∃ Xₘ, XM ∈ G such that:</string>
+    <string name="fmp_45">3. G – connected set</string>
+    <string name="fmp_46">PARTIAL DERIVATIVE</string>
+    <string name="fmp_47">is called the i-th partial increment f(x) or increment over the i-th variable.</string>
+    <string name="fmp_48">f(x) is defined in some neighborhood of x₀. The partial derivative of f(x) at the point x0 is the expression:</string>
+    <string name="fmp_49">provided that this limit exists</string>
+    <string name="fmp_50">The partial derivative is itself a function of n-variables, so we can take the 2nd order partial derivative from it. Partial derivatives of them will be derivatives of the 3rd order. Such partial derivatives are called higher-order partial derivatives.</string>
+    <string name="fmp_51">Mixed derivatives with respect to identical sets of variables are equal provided they are continuous.</string>
+    <string name="fmp_52">Partial derivatives are the angular coefficient of the tangent to the curve, which is a section of the graph of the function by planes y = y₀ or x = x₀</string>
+    <string name="fmp_53">Partial derivatives are not a complete analogue of the derivative of a function of one real variable. To study the behavior of a function, knowledge of partial derivatives alone is not enough.</string>
+    <string name="fmp_54">DIFFERENTIABILITY OF A FUNCTION OF n - VARIABLES. DIFFERENTIAL.</string>
+    <string name="fmp_55">y = f(x) in some V(x₀)</string>
+    <string name="fmp_56">is called the total increment of the function f(x)</string>
+    <string name="fmp_57">It is obvious that partial increments of the function in the i-th variable, i.e. Δⁱf, is a special case of a complete increment of a function when:</string>
+    <string name="fmp_58">Differentiability of a function</string>
+    <string name="fmp_59">y = f(x) is defined in some neighborhood V(x0). f(x) is said to be differentiable at x0 if:</string>
+    <string name="fmp_60">where А₁,…..,Аₙ do not depend on Δx</string>
+    <string name="fmp_61">f(x) is differentiable at the point x₀ ⇒ at the point x₀</string>
+    <string name="fmp_62">f(x) is defined in U(x₀),</string>
+    <string name="fmp_63">- continuous in U(x₀) ⇒ y = f(x) is differentiable at point x₀</string>
+    <string name="fmp_64">The previous two theorems are in a certain sense converse, namely, from the differentiability of a function ⇒ the existence of partial derivatives, and from the existence and continuity of partial derivatives in a certain neighborhood, differentiability follows. functions at a point.</string>
+    <string name="fmp_65">Relationship between differentiability and continuity</string>
+    <string name="fmp_66">f(x) is differentiable at the point x₀ ⇒ f(x) is continuous at the point x₀</string>
+    <string name="fmp_67">Differential of a function of n-variables</string>
+    <string name="fmp_68">The differential of a function of n-variables (1st order differential), denoted by df, is an expression of the form:</string>
+    <string name="fmp_69">DIFFERENTIATION OF COMPLEX FUNCTIONS</string>
+    <string name="fmp_70">y = f(x) is differentiable and ∃(xⁱ(t))′ is bounded (e.g. xⁱ(t) is smooth) ⇒ f(x(t)) = f(x¹(t)), …, xⁿ(t) ) is differentiable as a function of 1 variable t.\nMoreover:</string>
+    <string name="fmp_71">Derivative of a complex function</string>
+    <string name="fmp_72">- limited ⇒</string>
+    <string name="fmp_73">- is differentiable, and:</string>
+    <string name="fmp_74">Einstein\'s rule:</string>
+    <string name="fmp_75">If the same index occurs in a work both at the top and at the bottom, then it implies summation within limits known from the context:</string>
+    <string name="fmp_76">Implicit function of 1 variable</string>
+    <string name="fmp_77">We will call the function y = y(x) given implicit if the dependence instead of x and y is expressed in the form: F(x,y) = 0, where F(x,y) is some function of 2 variables.</string>
+    <string name="fmp_78">Implicit function theorem</string>
+    <string name="fmp_79">continuous in some</string>
+    <string name="fmp_80">Moreover:</string>
+    <string name="fmp_81">- defined in:</string>
+    <string name="fmp_82">HIGHER ORDER DIFFERENTIALS</string>
+    <string name="fmp_83">nth order differential</string>
+    <string name="fmp_84">General formula for nth order differentiation</string>
+    <string name="fmp_85">, Then:</string>
+    <string name="fmp_86">Taylor formula</string>
+    <string name="fmp_87">F(x) is continuous along with its partial derivatives up to n + 1 order in</string>
+    <string name="fmp_88">The remainder term can be in Peano form (1) and Lagrange form (2)</string>
+    <string name="fmp_89">Taylor series</string>
+    <string name="fmp_90">f(x) is continuous with all its partial derivatives in:</string>
+    <string name="fmp_91">dᵏf are limited to:</string>
+    <string name="fmp_92">The Taylor formula and series are used in mathematics and physics, both for approximate calculations and for an approximate description of the behavior of a function in the vicinity of a given point. When solving a physical problem, if it is impossible to obtain a solution in explicit form, as a rule, it is represented in the form of a Taylor series and the 1st (linear) or 2nd (quadratic) terms are considered. This kind of technique is often sufficient for a local description of the situation.</string>
+    <string name="fmp_93">EXTREMUM OF A FUNCTION OF SEVERAL VARIABLES</string>
+    <string name="fmp_94">Local strict extremum of a function of n-variables</string>
+    <string name="fmp_95">y = f(x) is defined in some V(x₀) x₀ ∈ IRᵐ If ∀x ∈ V(x₀) it is true that:</string>
+    <string name="fmp_96">then the point x₀ is called a point of strict minimum (maximum) of the function f(x) or, in general, a point of strict extremum.</string>
+    <string name="fmp_97">Critical point</string>
+    <string name="fmp_98">A point x₀ is called a critical point of f(x) if either f(x) is not differentiable. at point x₀, or all first partial derivatives 0 ≡, or in other words d¹f ≡ 0 or simply df = 0</string>
+    <string name="fmp_99">A necessary sign of the existence of a strict local extremum</string>
+    <string name="fmp_100">If point x₀ is a point of local strict extremum, then point x₀ is a critical point</string>
+    <string name="fmp_101">A sufficient sign of the existence of a local extremum</string>
+    <string name="fmp_102">y = f(x) we have 2nd continuous partial derivatives in V(x₀), x₀ ∈ IRⁿ.\nx₀ is the critical point for f(x). If in this case d²f at point x₀ is a positive definite quadratic form ⇒ point x₀ is the minimum point\nd²f is a negative definite quadratic form ⇒ point x₀ – maximum point\nd²f is an alternating quadratic form ⇒ point x₀ has no extremum</string>
+    <string name="fmp_103">- requires the use of a higher order differential</string>
+    <string name="fmp_104">The absolute global extremum on a set is the largest or smallest value that a given function takes on a given set.</string>
+    <string name="fmp_105">Let the function be defined on a compact set and differentiable, then the absolute global extremum of the function is achieved either at critical points or at the boundary of the compact set.</string>
+    <string name="fmp_106">CONDITIONAL EXTREMUM OF FUNCTIONS OF MANY VARIABLES</string>
+    <string name="fmp_107">x₀ ∈ IRⁿ, point x₀ is a solution to the system.</string>
+    <string name="fmp_108">- constraint equations</string>
+    <string name="fmp_109">f(x) is defined in V(x₀), then the point x₀ is called a conditional maximum (minimum) point if for any x ∈ U(x₀) and satisfying the system (*) the following holds:</string>
+    <string name="fmp_110">Lagrange function</string>
+    <string name="fmp_111">Function L is called the Lagrange function for f(x) and connections φ1…φn (L is a function of n + m variables):</string>
+    <string name="fmp_112">Necessary conditions for the presence of a conditional extremum</string>
+    <string name="fmp_113">Point x₀ is the conditional extremum point of the function f(x) under connections (*) ⇒ x₀ is the critical point of the function L, i.e.</string>
+    <string name="fmp_114">A sufficient sign of the presence of a conditional extremum</string>
+    <string name="fmp_115">(x₀;λ₀) is critical for L x₀ ∈ IRⁿ, λ₀ ∈ IRᵐ and the following conditions are satisfied:</string>
+    <string name="fmp_116">If d²L taken on satisfying conditions (**) dxⁱ:</string>
+    <string name="fmp_117">1) positive definite form ⇒point x₀ - minimum point\n2) negative definite form ⇒ point x₀ – maximum point\n3) alternating form ⇒ no extremum\n4) d²L ≡ 0 ⇒ uncertainty, additional is required. study.</string>
+    <string name="fmp_118">GRADIENT. DIRECTIONAL DERIVATIVE</string>
+    <string name="fmp_119">- this vector is called the gradient of the function f.\nDesignation:</string>
+    <string name="fmp_120">Vector derivative</string>
+    <string name="fmp_121">− some vector</string>
+    <string name="fmp_122">The derivative of the function f(x)x with respect to the vector u is called:</string>
+    <string name="fmp_123">or</string>
+    <string name="fmp_124">Directional derivative</string>
+    <string name="fmp_125">The derivative of a function with respect to the direction λ is the derivative with respect to the unit vector of a given direction.</string>
+    <string name="du_1">Differential equations</string>
+    <string name="du_2">Equations containing derivatives of unknown functions of one variable are called ordinary differential equations.</string>
+    <string name="du_3">The highest order of the derivative included in the difur is called the order of the equations.</string>
+    <string name="du_4">An ordinary differential equation of the first order is called the expression:</string>
+    <string name="du_5">Where F(x¹, x², x³) is some function of 3 unknowns</string>
+    <string name="du_6">If equation (∗) can be represented as:</string>
+    <string name="du_7">then they say that equation (∗) can be resolved with respect to the derivative.</string>
+    <string name="du_8">Solving a 1st order differential equation</string>
+    <string name="du_9">Function y= ϕ(x), such that:</string>
+    <string name="du_10">is called a solution to the equation (∗∗) on the set E or, in other words, a function that turns the equation (∗∗) into an identity on the set E is called a solution to the equation on this set.</string>
+    <string name="du_11">The main theorem of ODE theory</string>
+    <string name="du_12">Diff. equations, as a rule, are not solvable, i.e. if no smoothness conditions are imposed on the right-hand side of equations (∗) and (**), then the function ϕ(x) does not exist.</string>
+    <string name="du_13">Often, if a solution exists, it cannot be expressed through elementary functions. It is even considered a success that the solution can be expressed using ‘insoluble’ integrals - this is the so-called. solution in quadratures.</string>
+    <string name="du_14">The most general type of solution is a solution presented in the form of a series, and in modern conditions it is more often not even a power series, but a series of a more complex type.</string>
+    <string name="du_15">Cauchy\'s theorem or the theorem of existence and uniqueness of a solution to a differential. equations</string>
+    <string name="du_16">Let a diff be given. equation (∗∗). If a function of 2 variables f(x, y) is continuous in some domain G contained in:</string>
+    <string name="du_17">- is also continuous in G, then for any:</string>
+    <string name="du_18">defined in some U(x₀), such that y₀ = ϕ(x₀)</string>
+    <string name="du_19">General solution diff. equations</string>
+    <string name="du_20">The general solutions of the equation (∗∗) is a function of 2 variables:</string>
+    <string name="du_21">satisfying the following conditions:</string>
+    <string name="du_22">- is a solution (**)</string>
+    <string name="du_23">A special difur solution is a solution that exists despite the fact that the conditions of Cauchy\'s theorem are not satisfied.</string>
+    <string name="du_24">GEOMETRICAL INTERPRETATION OF DIF. EQUATIONS AND ITS SOLUTIONS</string>
+    <string name="du_25">Graph of solution of differential. equation is called an integral curve. In equation (**) it is easy to see that the right-hand side f(x,y) gives the derivative of the solution, i.e. wherever the equation makes sense and its solution makes sense, equation (**) gives us the angular coefficients of the tangents to the integral curve.</string>
+    <string name="du_26">- at each point the position of the curve is known\nIt is necessary to draw such a tangent to all curves in order to obtain a curve that satisfies the equation.</string>
+    <string name="du_27">Such a definition at each point of a certain direction is called a direction field.</string>
+    <string name="du_28">Obviously, the directions (**) generate some field of directions.</string>
+    <string name="du_29">Thus, geometrically, finding a solution (**) means finding a curve whose tangent at each point coincides with a straight line in the direction field.</string>
+    <string name="du_30">The general solution is all possible such curves</string>
+    <string name="du_31">- all curves, y = f(x) + C</string>
+    <string name="du_32">A particular solution is some selected curve passing through a given point</string>
+    <string name="du_33">- select a point</string>
+    <string name="du_34">A special solution is some envelope of a family of solutions</string>
+    <string name="du_35">An isocline is a curve consisting of points with the same directions f(x, y) = k. These are all x, y in which the derivative of the function is equal to k.</string>
+    <string name="du_36">SIMPLE FIRST ORDER EQUATIONS</string>
+    <string name="du_37">Separable equations</string>
+    <string name="du_38">The equation:</string>
+    <string name="du_39">is called a separable equation if:</string>
+    <string name="du_40">i.e. the variables on the right side are divided.</string>
+    <string name="du_41">Solution:</string>
+    <string name="du_42">- the general solution of an equation with separable variables, specified implicitly.</string>
+    <string name="du_43">The solution to an equation with separable variables, like many others, is often obtained in an implicit form. In this case it is called the general integral of equation (**) and in general form is written as follows:</string>
+    <string name="du_44">- solution in the form of a general or first integral.</string>
+    <string name="du_45">Homogeneous first order equations</string>
+    <string name="du_46">Equations of the form:</string>
+    <string name="du_47">are called a homogeneous 1st order equation.</string>
+    <string name="du_48">We make a replacement:</string>
+    <string name="du_49">- we obtain an equation with separable variables</string>
+    <string name="du_50">By making the reverse substitution:</string>
+    <string name="du_51">we will find a general solution to a homogeneous 1st order equation.</string>
+    <string name="du_52">1st order linear equation</string>
+    <string name="du_53">is called a 1st order linear equation.</string>
+    <string name="du_54">If q(x) ≡ 0, then the equation is called homogeneous.</string>
+    <string name="du_55">First, let\'s solve the homogeneous:</string>
+    <string name="du_56">is an equation with separable variables.</string>
+    <string name="du_57">is the general solution of the homogeneous (y₀₀).</string>
+    <string name="du_58">To solve the general solution of the inhomogeneous (y), we use the method of variation of constants and assume that C = C(x) is an unknown function:</string>
+    <string name="du_59">Let\'s substitute this expression into the original equation. We get the equation for finding C(x):</string>
+    <string name="du_60">Now let\'s substitute:</string>
+    <string name="du_61">Bernoulli and Riccati equation</string>
+    <string name="du_62">Equation of the form:</string>
+    <string name="du_63">called Bernoulli\'s equation</string>
+    <string name="du_64">α = 1 - with separable variables,\nα = 0 - 1st order linear equation,\nα ≠ 0.1 - Bernoulli’s equation itself</string>
+    <string name="du_65">Replacement:</string>
+    <string name="du_66">Let\'s substitute:</string>
+    <string name="du_67">- 1st order linear equation</string>
+    <string name="du_68">Solving this equation we find its general solution z = z(x). Let\'s do the reverse replacement:</string>
+    <string name="du_69">The Bernoulli equation can also be solved using the Bernoulli method:</string>
+    <string name="du_70">where a(x), b(x), c(x) are continuous functions, called the Ricatti equation.</string>
+    <string name="du_71">y₁(x) is some particular solution of the Riccati equation. The substitution z = y + y₁ brings the Ricatti equation to the Bernoulli equation.</string>
+    <string name="du_72">Equation in total differentials</string>
+    <string name="du_73">is called a total differential equation.</string>
+    <string name="du_74">Lagrange and Clairaut equations</string>
+    <string name="du_75">Lagrange equation:</string>
+    <string name="du_76">where φ(y\') and ψ(y\') are known functions differentiable on a certain interval, called the Lagrange equation.</string>
+    <string name="du_77">Setting y\' = p and differentiating with respect to the variable x, we obtain a general solution to the equation in parametric form:</string>
+    <string name="du_78">provided that ϕ(p) − p ≠ 0, where p is a parameter.</string>
+    <string name="du_79">The Lagrange equation can also have a special solution if the condition φ(p) − p ≠ 0 is violated.</string>
+    <string name="du_80">A special solution is determined by the function:</string>
+    <string name="du_81">where c is the root of the equation φ(p) − p = 0</string>
+    <string name="du_82">Clairaut equation:</string>
+    <string name="du_83">where ψ(y\') is some nonlinear differentiable function.\nThe Clairaut equation is a special case of the Lagrange equation when φ(y\') = y\'.\nIt can be solved in a similar way by introducing a parameter.\nThe general solution is given by:</string>
+    <string name="du_84">in which C is an arbitrary constant.</string>
+    <string name="du_85">Just like the Lagrange equation, the Clairaut equation can have a special solution, which expresses in parametric form:</string>
+    <string name="du_86">where p is a parameter.</string>
+    <string name="du_87">Higher order ODEs</string>
+    <string name="du_88">is called an ordinary differential equation of higher orders. (nth order)</string>
+    <string name="du_89">If equation (*) can be represented as</string>
+    <string name="du_90">(it is called an equation that can be resolved with respect to the highest derivative), then (**) is called an equation that can be resolved with respect to the highest derivative.</string>
+    <string name="du_91">The solution to equations (*) and (**) is a function y =ϕ(x) that turns these equations into identities</string>
+    <string name="du_92">Cauchy\'s theorem</string>
+    <string name="du_93">Let equation (**) be given.</string>
+    <string name="du_94">- continuous in G ∈ Rⁿ⁺¹</string>
+    <string name="du_95">Then for any point A,</string>
+    <string name="du_96">which is a solution to (**) in some U(A) and:</string>
+    <string name="du_97">General solution (* *)</string>
+    <string name="du_98">ODE SYSTEMS</string>
+    <string name="du_99">Any nth order differential equation can be represented as a system of first order n-equations.</string>
+    <string name="du_100">Conversely, any system of linear equations resolved with respect to higher derivatives can be represented as a first-order linear equation.</string>
+    <string name="du_101">A reduced system of linear equations of the first order is called a system of the form:</string>
+    <string name="du_102">aᵢⱼ - unknown function.</string>
+    <string name="du_103">The solution to system (*) is called a vector x(t) that turns all equations (*) into identities.</string>
+    <string name="coming_soon">Coming soon...</string>
+    <string name="welcome_text">Welcome to Examath!\nTo start studying\nclick the icon on the top left!\nGood luck!</string>
+</resources>

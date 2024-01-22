@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/indefiniteFragment"
+        android:name="com.example.examath.IndefiniteFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_indefiniteFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.examath.MainFragment"
+        android:label="fragment_elements"
+        tools:layout="@layout/fragment_elements" >
+        <action
+            android:id="@+id/action_homeFragment_to_indefiniteFragment"
+            app:destination="@id/indefiniteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_matricesFragment"
+            app:destination="@id/matricesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_slauFragment"
+            app:destination="@id/slauFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_vectFragment"
+            app:destination="@id/vectFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_laeFragment"
+            app:destination="@id/laeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_agFragment"
+            app:destination="@id/agFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_agsFragment"
+            app:destination="@id/agsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_prFragment"
+            app:destination="@id/prFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_prlistFragment"
+            app:destination="@id/prlistFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_inFragment"
+            app:destination="@id/inFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_definiteFragment"
+            app:destination="@id/definiteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_apFragment"
+            app:destination="@id/apFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_nsFragment"
+            app:destination="@id/nsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fsFragment"
+            app:destination="@id/fsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fmpFragment"
+            app:destination="@id/fmpFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_duFragment"
+            app:destination="@id/duFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/matricesFragment"
+        android:name="com.example.examath.MatricesFragment"
+        android:label="fragment_matrices"
+        tools:layout="@layout/fragment_matrices" >
+        <action
+            android:id="@+id/action_matricesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_matricesFragment_to_indefiniteFragment"
+            app:destination="@id/indefiniteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/slauFragment"
+        android:name="com.example.examath.SlauFragment"
+        android:label="fragment_slau"
+        tools:layout="@layout/fragment_slau" >
+        <action
+            android:id="@+id/action_slauFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_slauFragment_to_indefiniteFragment"
+            app:destination="@id/indefiniteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vectFragment"
+        android:name="com.example.examath.VectFragment"
+        android:label="fragment_vect"
+        tools:layout="@layout/fragment_vect" >
+        <action
+            android:id="@+id/action_vectFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_vectFragment_to_slauFragment"
+            app:destination="@id/slauFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/laeFragment"
+        android:name="com.example.examath.LaeFragment"
+        android:label="fragment_lae"
+        tools:layout="@layout/fragment_lae" />
+    <fragment
+        android:id="@+id/agFragment"
+        android:name="com.example.examath.AgFragment"
+        android:label="fragment_ag"
+        tools:layout="@layout/fragment_ag" >
+        <action
+            android:id="@+id/action_agFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agsFragment"
+        android:name="com.example.examath.AgsFragment"
+        android:label="fragment_ags"
+        tools:layout="@layout/fragment_ags" />
+    <fragment
+        android:id="@+id/funcFragment"
+        android:name="com.example.examath.FuncFragment"
+        android:label="fragment_func"
+        tools:layout="@layout/fragment_func" >
+        <action
+            android:id="@+id/action_funcFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prFragment"
+        android:name="com.example.examath.PrFragment"
+        android:label="fragment_pr"
+        tools:layout="@layout/fragment_pr" />
+    <fragment
+        android:id="@+id/prlistFragment"
+        android:name="com.example.examath.PrlistFragment"
+        android:label="fragment_prlist"
+        tools:layout="@layout/fragment_prlist" />
+    <fragment
+        android:id="@+id/inFragment"
+        android:name="com.example.examath.InFragment"
+        android:label="fragment_in"
+        tools:layout="@layout/fragment_in" />
+    <fragment
+        android:id="@+id/definiteFragment"
+        android:name="com.example.examath.DefiniteFragment"
+        android:label="fragment_definite"
+        tools:layout="@layout/fragment_definite" />
+    <fragment
+        android:id="@+id/apFragment"
+        android:name="com.example.examath.ApFragment"
+        android:label="fragment_ap"
+        tools:layout="@layout/fragment_ap" />
+    <fragment
+        android:id="@+id/nsFragment"
+        android:name="com.example.examath.NsFragment"
+        android:label="fragment_ns"
+        tools:layout="@layout/fragment_ns" />
+    <fragment
+        android:id="@+id/fsFragment"
+        android:name="com.example.examath.FsFragment"
+        android:label="fragment_fs"
+        tools:layout="@layout/fragment_fs" />
+    <fragment
+        android:id="@+id/fmpFragment"
+        android:name="com.example.examath.FmpFragment"
+        android:label="fragment_fmp"
+        tools:layout="@layout/fragment_fmp" />
+    <fragment
+        android:id="@+id/duFragment"
+        android:name="com.example.examath.DuFragment"
+        android:label="fragment_du"
+        tools:layout="@layout/fragment_du" />
+</navigation>

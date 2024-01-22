@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single"
+        >
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="@string/home">
+        </item>
+
+        <item android:id="@+id/nav_first1"
+            android:icon="@drawable/nav_first1"
+            android:title="@string/first1">
+        </item>
+
+                <item
+                    android:id="@+id/nav_matrices"
+                    android:title="@string/first1_1" />
+                <item
+                    android:id="@+id/nav_slau"
+                    android:title="@string/slau_1" />
+
+                <item
+                    android:id="@+id/nav_vect"
+                    android:title="@string/vect_1" />
+                <item
+                    android:id="@+id/nav_lae"
+                    android:title="@string/lae_1" />
+                <item
+                    android:id="@+id/nav_ag"
+                    android:title="@string/ag_1" />
+                <item
+                    android:id="@+id/nav_ags"
+                    android:title="@string/ags_1" />
+                <item
+                    android:id="@+id/nav_func"
+                    android:title="@string/f_1" />
+                <item
+                    android:id="@+id/nav_pr"
+                    android:title="@string/pr_1" />
+                <item
+                    android:id="@+id/nav_prlist"
+                    android:title="@string/prlist_1" />
+
+        <item android:id="@+id/nav_second1"
+            android:icon="@drawable/nav_second1"
+            android:title="@string/first2">
+        </item>
+
+            <item
+                android:id="@+id/nav_in"
+                android:title="@string/in_1" />
+            <item
+                android:id="@+id/nav_inlist"
+                android:title="@string/indefinite_1" />
+            <item
+                android:id="@+id/nav_de"
+                android:title="@string/de_1" />
+            <item
+                android:id="@+id/nav_ap"
+                android:title="@string/ap_1" />
+            <item
+                android:id="@+id/nav_ns"
+                android:title="@string/ns_1" />
+            <item
+                android:id="@+id/nav_fs"
+                android:title="@string/fs_1" />
+            <item
+                android:id="@+id/nav_fmp"
+                android:title="@string/fmp_1" />
+            <item
+                android:id="@+id/nav_du"
+                android:title="@string/du_1" />
+
+        <item android:id="@+id/nav_first2"
+            android:icon="@drawable/nav_first2"
+            android:title="@string/second1">
+        </item>
+
+        <item
+            android:id="@+id/nav_subitem5"
+            android:title="@string/coming_soon" />
+        <item android:id="@+id/nav_second2"
+            android:icon="@drawable/nav_second2"
+            android:title="@string/second2">
+        </item>
+        <item
+            android:id="@+id/nav_subitem7"
+            android:title="@string/coming_soon" />
+    </group>
+
+
+</menu>

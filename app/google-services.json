@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1086512449290",
+    "firebase_url": "https://examath-base-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "examath-base",
+    "storage_bucket": "examath-base.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086512449290:android:0bed1c8c389816c6aa5cf3",
+        "android_client_info": {
+          "package_name": "com.example.examath"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuQ2KsnmSgvIqk3dNpLgnw_UqLgmi8N6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

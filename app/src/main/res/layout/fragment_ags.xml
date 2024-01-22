@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="5dp"
+    android:layout_height="match_parent"
+    tools:context=".AgsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ags_2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_3" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ag1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags1"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_5" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_6" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_7" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_8" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_9" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags2"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_10" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags3"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_11" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_12" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags4"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_13" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags5"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_14" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_15" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_16" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_17" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_18" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_19" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_20" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags6"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_21" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags7"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_22" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags8"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_23" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_24" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags9"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_25" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_26" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags10"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_27" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_28" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_29" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_30" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags11"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_31" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags12"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_32" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_33" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags13"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_34" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_35" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags14"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_36" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags15"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_37" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_38" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags16"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_39" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_40" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_41" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags17"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_42" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags18"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_43" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags19"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_44" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags20"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_45" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_46" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags21"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags22"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags23"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_47" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_48" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags24"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_49" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_50" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_51" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_52" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_53" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_54" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_55" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_56" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_57" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags25"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_58" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags26"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_59" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags27"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_60" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_61" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags28"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_62" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_63" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags29"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_64" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags30"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_65" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_66" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_67" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_68" />
+
+
+
+        <!--                                                 -->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags31"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--                                                          -->
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_69" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags32"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--                                                 -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags33"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--                                                 -->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_70" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags34"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags35"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_71" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags36"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_72" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags37"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ags_73" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags38"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/ags_74" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            app:cardBackgroundColor="#31000000"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ags39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ags39"
+                android:tint="?attr/imageViewTint"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
